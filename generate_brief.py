@@ -26,7 +26,7 @@ OPENALEX_API = "https://api.openalex.org"
 ISSUE_BODY_LIMIT = 60_000
 
 
-def load_yaml(path: Path) -> dict[str, Any\]:
+def load_yaml(path: Path) -> dict[str, Any]:
     """Load and validate the YAML configuration file."""
     with path.open("r", encoding="utf-8") as file:
         data = yaml.safe_load(file) or {}
@@ -37,7 +37,7 @@ def load_yaml(path: Path) -> dict[str, Any\]:
     return data
 
 
-def load_seen_works() -> set[str\]:
+def load_seen_works() -> set[str]:
     """Load previously processed OpenAlex Work IDs."""
     if not SEEN_FILE.exists():
         return set()
@@ -168,7 +168,7 @@ def score_work(
     work: dict[str, Any],
     config: dict[str, Any],
     tracked_author: str,
-) -> dict[str, Any\]:
+) -> dict[str, Any]:
     """Calculate the keyword relevance score for one work."""
     abstract = reconstruct_abstract(
         work.get("abstract_inverted_index")
@@ -302,7 +302,7 @@ def fetch_recent_works(
     start_date: str,
     end_date: str,
     contact_email: str,
-) -> list[dict[str, Any]\]:
+) -> list[dict[str, Any]]:
     """Retrieve recent works for one OpenAlex author."""
     clean_id = clean_openalex_id(author_id)
 
@@ -367,11 +367,11 @@ def get_primary_source(
 
 def get_authors(
     work: dict[str, Any],
-) -> list[str\]:
+) -> list[str]:
     """Extract author display names."""
     names: list[str] = []
 
-    for authorship in work.get("authorships") or [\]:
+    for authorship in work.get("authorships") or []:
         if not isinstance(authorship, dict):
             continue
 
@@ -608,7 +608,7 @@ def create_report(
                 ]
             )
 
-            if analysis["matched_exclusion"\]:
+            if analysis["matched_exclusion"]:
                 exclusion_text = ", ".join(
                     f"`{keyword}`"
                        in analysis["matched_exclusion"]
