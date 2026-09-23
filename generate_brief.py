@@ -367,10 +367,12 @@ def get_primary_source(
 
 def get_authors(
     work: dict[str, Any],
-) -> list"""Extract author display names."""
+) -> list[str\]:
+    """Extract author display names."""
+
     names: list[str] = []
 
-    for authorship in work.get("authorships") or []:
+    for authorship in work.get("authorships") or [\]:
         if not isinstance(authorship, dict):
             continue
 
@@ -381,7 +383,6 @@ def get_authors(
             names.append(str(name))
 
     return names
-
 
 def get_work_url(
     work: dict[str, Any],
