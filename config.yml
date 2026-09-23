@@ -1,8 +1,8 @@
 brief:
-  title: "界面水与纳米限域科研情报简报"
-  lookback_days: 365
-  minimum_score: 2
-  maximum_papers: 200
+  title: "Nanoconfined Water Bulletin"
+  lookback_days: 40
+  minimum_score: 4
+  maximum_papers: 50
 
 authors:
   - name: "Angelos Michaelides"
