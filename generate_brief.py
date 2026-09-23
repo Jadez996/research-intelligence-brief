@@ -220,7 +220,7 @@ def fetch_recent_works(author_id, start_date, end_date, email):
     return payload.get("results", [])
 
 
-def truncate_abstract(text, maximum_length=1200):
+def truncate_abstract(text, maximum_length=20):
     text = re.sub(r"\s+", " ", text).strip()
 
     if not text:
