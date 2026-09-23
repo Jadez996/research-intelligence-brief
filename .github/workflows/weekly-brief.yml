@@ -1,0 +1,71 @@
+name: Weekly Research Intelligence Brief
+
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: "15 15 * * 5"
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  generate-brief:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Generate weekly brief
+        env:
+          OPENALEX_EMAIL: ${{ secrets.OPENALEX_EMAIL }}
+        run: |
+          python generate_brief.py
+
+      - name: Check generated report
+        run: |
+          test -f weekly_brief.md
+          sed -n '1,80p' weekly_brief.md
+
+      - name: Create GitHub issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          ISSUE_TITLE="科研情报简报 $(date -u +%Y-%m-%d)"
+          gh issue create \
+            --title "$ISSUE_TITLE" \
+            --body-file weekly_brief.md \
+            --label "research-brief"
+
+      - name: Save processed work IDs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add seen_works.json
+
+          if git diff --cached --quiet; then
+            echo "No new work IDs to commit."
+          else
+            git commit -m "Update processed OpenAlex works"
+            git push
+          fi
+
+      - name: Upload report as workflow artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: weekly-research-brief
+          path: weekly_brief.md
+          retention-days: 30
