@@ -1,1 +1,53 @@
+brief:
+  title: "界面水与纳米限域科研情报简报"
+  lookback_days: 10
+  minimum_score: 2
+  maximum_papers: 30
 
+authors:
+  - name: "Angelos Michaelides"
+    openalex_id: "A5056513432"
+    group: "Interfacial water"
+
+  - name: "Lydéric Bocquet"
+    openalex_id: "A5063972997"
+    group: "Nanofluidics"
+
+  - name: "Mischa Bonn"
+    openalex_id: "A5017647814"
+    group: "Interfacial spectroscopy"
+
+  - name: "Laura Fumagalli"
+    openalex_id: "A5062032912"
+    group: "Confined water"
+
+keywords:
+  high_priority:
+    - "confined water"
+    - "nanoconfined water"
+    - "interfacial water"
+    - "hectorite"
+    - "montmorillonite"
+    - "clay mineral"
+    - "interlayer water"
+    - "dielectric spectroscopy"
+    - "dielectric response"
+
+  medium_priority:
+    - "hydration"
+    - "hydrogen bond"
+    - "nanofluidic"
+    - "two-dimensional channel"
+    - "van der waals channel"
+    - "electric double layer"
+    - "proton transport"
+    - "ion transport"
+    - "surface water"
+    - "atomic force microscopy"
+    - "AFM"
+
+  exclusion:
+    - "astrophysics"
+    - "cancer therapy"
+    - "clinical trial"
+    - "financial market"
