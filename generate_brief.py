@@ -158,7 +158,7 @@ def get_primary_source(work):
 def get_authors(work):
     names = []
 
-    for authorship in work.get("authorships") or [\]:
+    for authorship in work.get("authorships") or []:
         author = authorship.get("author") or {}
         name = author.get("display_name")
 
