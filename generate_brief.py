@@ -289,7 +289,7 @@ def create_report(config, papers, start_date, end_date):
 
     paper_number = 1
 
-    for category in ["高度相关", "较相关", "可能相关"\]:
+    for category in ["高度相关", "较相关", "可能相关"]:
         category_papers = grouped[category]
 
         if not category_papers:
@@ -338,7 +338,7 @@ def create_report(config, papers, start_date, end_date):
                 ]
             )
 
-            if analysis["matched_exclusion"\]:
+            if analysis["matched_exclusion"]:
                 exclusions = ", ".join(
                     f"`{keyword}`"
                     for keyword in analysis["matched_exclusion"]
