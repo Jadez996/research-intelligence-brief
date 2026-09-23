@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 
   schedule:
-    - cron: "15 15 * * 5"
+    - cron: "15 08 * * 1"
 
 permissions:
   contents: write
@@ -43,7 +43,7 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          ISSUE_TITLE="科研情报简报 $(date -u +%Y-%m-%d)"
+          ISSUE_TITLE="Research Bulletin $(date -u +%Y-%m-%d)"
           gh issue create \
             --title "$ISSUE_TITLE" \
             --body-file weekly_brief.md \
