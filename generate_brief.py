@@ -367,7 +367,7 @@ def get_primary_source(
 
 def get_authors(
     work: dict[str, Any],
-) -> list[str\]:
+) -> list[str]:
     """Extract author display names."""
 
     names: list[str] = []
