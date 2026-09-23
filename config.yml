@@ -1,8 +1,8 @@
 brief:
   title: "Nanoconfined Water Bulletin"
-  lookback_days: 365
+  lookback_days: 10
   minimum_score: 2
-  maximum_papers: 70
+  maximum_papers: 100
 
 authors:
   - name: "Angelos Michaelides"
