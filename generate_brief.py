@@ -372,7 +372,7 @@ def get_authors(
 
     names: list[str] = []
 
-    for authorship in work.get("authorships") or [\]:
+    for authorship in work.get("authorships") or []:
         if not isinstance(authorship, dict):
             continue
 
