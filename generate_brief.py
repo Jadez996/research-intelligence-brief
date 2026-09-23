@@ -37,7 +37,8 @@ def load_yaml(path: Path) -> dict[str, Any]:
     return data
 
 
-def load_seen_works() -> set"""Load previously processed OpenAlex Work IDs."""
+def load_seen_works():
+    """Load previously processed OpenAlex Work IDs."""
     if not SEEN_FILE.exists():
         return set()
 
