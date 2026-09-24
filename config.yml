@@ -52,6 +52,10 @@ authors:
   - name: "Narayana R. Aluru"
     openalex_id: "A5073593948"
     group: "Nanofluidics"
+
+  - name: "Nikita Kavokine"
+    openalex_id: "A5001741937"
+    group: "Nanofluidics"
     
 keywords:
   high_priority:
