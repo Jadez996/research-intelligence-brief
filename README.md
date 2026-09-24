@@ -1,2 +1,2 @@
 # research-intelligence-brief
-Weekly literature intelligence for confined water research
+Weekly literature intelligence for confined water research.
