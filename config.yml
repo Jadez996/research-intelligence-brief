@@ -48,6 +48,10 @@ authors:
   - name: "Qian Yang"
     openalex_id: "A5073924934"
     group: "Confined water"
+
+  - name: "Narayana R. Aluru"
+    openalex_id: "A5073593948"
+    group: "Nanofluidics"
     
 keywords:
   high_priority:
