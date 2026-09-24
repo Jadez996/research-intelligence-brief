@@ -1,5 +1,4 @@
 name: Weekly Research Intelligence Brief
-
 on:
   workflow_dispatch:
   schedule:
