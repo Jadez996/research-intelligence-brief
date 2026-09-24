@@ -21,6 +21,34 @@ authors:
     openalex_id: "A5062032912"
     group: "Confined water"
 
+  - name: "Kostya S. Novoselov"
+    openalex_id: "A5072248970"
+    group: "2D"
+
+  - name: "Andre K. Geim"
+    openalex_id: "A5063416790"
+    group: "2D"
+
+  - name: "Artem Mishchenko"
+    openalex_id: "A5081648095"
+    group: "2D"
+
+  - name: "Marcelo Lozada‐Hidalgo"
+    openalex_id: "A5052074727"
+    group: "2D"
+
+  - name: "Irina V. Grigorieva"
+    openalex_id: "A5076577191"
+    group: "2D"
+  
+  - name: "Boya Radha"
+    openalex_id: "A5029687421"
+    group: "Confined water"
+
+  - name: "Qian Yang"
+    openalex_id: "A5073924934"
+    group: "Confined water"
+    
 keywords:
   high_priority:
     - "confined water"
