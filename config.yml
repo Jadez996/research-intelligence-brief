@@ -133,11 +133,11 @@ researcher_discovery:
 
   # Build the seed graph from recent, topic-relevant works only.
   analysis_years: 5
-  works_per_seed: 100
+  works_per_seed: 20
   minimum_work_relevance: 2
 
   # Bound API use before candidate enrichment.
-  candidate_pool_size: 50
+  candidate_pool_size: 30
   maximum_researchers: 20
 
   # Recent activity and an early-career publication-history proxy.
