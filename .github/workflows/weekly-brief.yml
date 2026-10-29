@@ -30,12 +30,19 @@ jobs:
       - name: Generate weekly brief
         env:
           OPENALEX_EMAIL: ${{ secrets.OPENALEX_EMAIL }}
+          OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
         run: |
           python generate_brief.py
 
-      - name: Check generated report
+      - name: Check generated reports
         run: |
           test -f weekly_brief.md
+          test -f issue_brief.md
+          test -f researcher_radar.md
+          test -f researcher_radar.json
+          test -f researcher_history.json
+          echo "Generated files:"
+          ls -lh weekly_brief.md issue_brief.md researcher_radar.md researcher_radar.json researcher_history.json
           sed -n '1,80p' weekly_brief.md
 
       - name: Create GitHub issue
@@ -48,23 +55,28 @@ jobs:
             --body-file weekly_brief.md \
             --label "research-brief"
 
-      - name: Save processed work IDs
+      - name: Save generated state and researcher radar
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
-          git add seen_works.json
-
+          git add seen_works.json researcher_radar.md researcher_radar.json researcher_history.json
           if git diff --cached --quiet; then
-            echo "No new work IDs to commit."
+            echo "No generated changes to commit."
           else
-            git commit -m "Update processed OpenAlex works"
+            git commit -m "Update processed works and researcher radar"
             git push
           fi
 
-      - name: Upload report as workflow artifact
+      - name: Upload reports as workflow artifact
         uses: actions/upload-artifact@v4
         with:
-          name: weekly-research-brief
-          path: weekly_brief.md
+          name: weekly-research-intelligence
+          if-no-files-found: error
+          path: |
+            weekly_brief.md
+            issue_brief.md
+            researcher_radar.md
+            researcher_radar.json
+            researcher_history.json
+            seen_works.json
           retention-days: 30
