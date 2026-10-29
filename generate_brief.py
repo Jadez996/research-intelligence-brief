@@ -920,6 +920,14 @@ def main() -> int:
     )
 
     save_seen_works(processed_works)
+    discovery_config = config.get("researcher_discovery") or {}
+    if discovery_config.get("enabled", False):
+        try:
+            from researcher_discovery import run_researcher_discovery
+            run_researcher_discovery(config, session)
+        except Exception as error:
+            # Keep the paper brief usable if the optional radar fails.
+            print(f"Researcher discovery failed: {error}", file=sys.stderr)
 
     print(
         f"Generated full report: {OUTPUT_FILE}"

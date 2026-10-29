@@ -127,3 +127,23 @@ keywords:
     - "cancer therapy"
     - "clinical trial"
     - "financial market"
+
+researcher_discovery:
+  enabled: true
+
+  # Build the seed graph from recent, topic-relevant works only.
+  analysis_years: 5
+  works_per_seed: 100
+  minimum_work_relevance: 2
+
+  # Bound API use before candidate enrichment.
+  candidate_pool_size: 50
+  maximum_researchers: 20
+
+  # Recent activity and an early-career publication-history proxy.
+  recent_years: 2
+  early_career_first_publication_years: 8
+
+  # Flag group pairs with overlapping OpenAlex topics but no observed
+  # relevant coauthored work between configured seed groups.
+  group_similarity_threshold: 0.15
