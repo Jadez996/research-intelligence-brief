@@ -9,20 +9,28 @@ authors:
     openalex_id: "A5056513432"
     group: "Interfacial water"
 
-  - name: "Lydéric Bocquet"
-    openalex_id: "A5063972997"
-    group: "Nanofluidics"
+  - name: "Martin Z. Bazant"
+    openalex_id: "A5070486479"
+    group: "Electrostatics"
+
+  - name: "Huanting Wang"
+    openalex_id: "A5012782337"
+    group: "Electrostatics"
+
+  - name: "Liangbing Hu"
+    openalex_id: "A5088625519"
+    group: "Electrostatics"
 
   - name: "Mischa Bonn"
     openalex_id: "A5017647814"
     group: "Interfacial spectroscopy"
 
-  - name: "Laura Fumagalli"
-    openalex_id: "A5062032912"
-    group: "Confined water"
-
   - name: "Kostya S. Novoselov"
     openalex_id: "A5072248970"
+    group: "2D"
+
+  - name: "Yury Gogotsi"
+    openalex_id: "A5035467559"
     group: "2D"
 
   - name: "Andre K. Geim"
@@ -40,22 +48,54 @@ authors:
   - name: "Irina V. Grigorieva"
     openalex_id: "A5076577191"
     group: "2D"
-  
+
+  - name: "John A. Rogers"
+    openalex_id: "A5045551635"
+    group: "2D"
+    
+  - name: "Laura Fumagalli"
+    openalex_id: "A5062032912"
+    group: "Confined water"
+
   - name: "Boya Radha"
     openalex_id: "A5029687421"
     group: "Confined water"
 
+  - name: "Rahul R. Nair"
+    openalex_id: "A5086610841"
+    group: "Confined water"
+    
   - name: "Qian Yang"
     openalex_id: "A5073924934"
     group: "Confined water"
-
+    
+  - name: "Lydéric Bocquet"
+    openalex_id: "A5063972997"
+    group: "Nanofluidics"
+    
   - name: "Narayana R. Aluru"
     openalex_id: "A5073593948"
     group: "Nanofluidics"
-
+    
+  - name: "Aleksandr Noy"
+    openalex_id: "A5031208437"
+    group: "Nanofluidics"
+    
+  - name: "Arun Majumdar"
+    openalex_id: "A5028373521"
+    group: "Nanofluidics"
+    
   - name: "Nikita Kavokine"
     openalex_id: "A5001741937"
     group: "Nanofluidics"
+
+  - name: "Lei Jiang"
+    openalex_id: "A5089379689"
+    group: "Nanofluidics"
+
+  - name: "Nam‐Trung Nguyen"
+    openalex_id: "A5012833011"
+    group: "Microfluidics"
     
 keywords:
   high_priority:
