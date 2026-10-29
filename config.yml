@@ -1,6 +1,6 @@
 brief:
   title: "Nanoconfined Water Bulletin"
-  lookback_days: 10
+  lookback_days: 100
   minimum_score: 2
   maximum_papers: 100
 
