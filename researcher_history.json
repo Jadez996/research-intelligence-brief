@@ -4,11 +4,21 @@
       "date": "2026-10-29",
       "score": 39.5,
       "recent_relevant_works": 13
+    },
+    {
+      "date": "2026-11-01",
+      "score": 39.5,
+      "recent_relevant_works": 12
     }
   ],
   "A5009821984": [
     {
       "date": "2026-10-29",
+      "score": 36.5,
+      "recent_relevant_works": 8
+    },
+    {
+      "date": "2026-11-01",
       "score": 36.5,
       "recent_relevant_works": 8
     }
@@ -18,12 +28,22 @@
       "date": "2026-10-29",
       "score": 36.5,
       "recent_relevant_works": 5
+    },
+    {
+      "date": "2026-11-01",
+      "score": 36.5,
+      "recent_relevant_works": 5
     }
   ],
   "A5027388818": [
     {
       "date": "2026-10-29",
       "score": 34.5,
+      "recent_relevant_works": 5
+    },
+    {
+      "date": "2026-11-01",
+      "score": 36.5,
       "recent_relevant_works": 5
     }
   ],
@@ -32,6 +52,11 @@
       "date": "2026-10-29",
       "score": 31.5,
       "recent_relevant_works": 12
+    },
+    {
+      "date": "2026-11-01",
+      "score": 36.5,
+      "recent_relevant_works": 11
     }
   ],
   "A5051222883": [
@@ -39,6 +64,11 @@
       "date": "2026-10-29",
       "score": 31.5,
       "recent_relevant_works": 5
+    },
+    {
+      "date": "2026-11-01",
+      "score": 28.0,
+      "recent_relevant_works": 4
     }
   ],
   "A5004666527": [
@@ -46,11 +76,21 @@
       "date": "2026-10-29",
       "score": 31.5,
       "recent_relevant_works": 4
+    },
+    {
+      "date": "2026-11-01",
+      "score": 28.0,
+      "recent_relevant_works": 3
     }
   ],
   "A5089096336": [
     {
       "date": "2026-10-29",
+      "score": 29.5,
+      "recent_relevant_works": 8
+    },
+    {
+      "date": "2026-11-01",
       "score": 29.5,
       "recent_relevant_works": 8
     }
@@ -60,6 +100,11 @@
       "date": "2026-10-29",
       "score": 28.5,
       "recent_relevant_works": 1
+    },
+    {
+      "date": "2026-11-01",
+      "score": 28.5,
+      "recent_relevant_works": 1
     }
   ],
   "A5044554099": [
@@ -67,11 +112,21 @@
       "date": "2026-10-29",
       "score": 27.0,
       "recent_relevant_works": 5
+    },
+    {
+      "date": "2026-11-01",
+      "score": 23.5,
+      "recent_relevant_works": 4
     }
   ],
   "A5069715513": [
     {
       "date": "2026-10-29",
+      "score": 27.0,
+      "recent_relevant_works": 2
+    },
+    {
+      "date": "2026-11-01",
       "score": 27.0,
       "recent_relevant_works": 2
     }
@@ -81,12 +136,22 @@
       "date": "2026-10-29",
       "score": 26.5,
       "recent_relevant_works": 4
+    },
+    {
+      "date": "2026-11-01",
+      "score": 26.5,
+      "recent_relevant_works": 4
     }
   ],
   "A5101457849": [
     {
       "date": "2026-10-29",
       "score": 25.5,
+      "recent_relevant_works": 6
+    },
+    {
+      "date": "2026-11-01",
+      "score": 32.5,
       "recent_relevant_works": 6
     }
   ],
@@ -95,11 +160,21 @@
       "date": "2026-10-29",
       "score": 25.5,
       "recent_relevant_works": 4
+    },
+    {
+      "date": "2026-11-01",
+      "score": 22.0,
+      "recent_relevant_works": 3
     }
   ],
   "A5062916580": [
     {
       "date": "2026-10-29",
+      "score": 23.0,
+      "recent_relevant_works": 2
+    },
+    {
+      "date": "2026-11-01",
       "score": 23.0,
       "recent_relevant_works": 2
     }
@@ -116,6 +191,11 @@
       "date": "2026-10-29",
       "score": 21.0,
       "recent_relevant_works": 2
+    },
+    {
+      "date": "2026-11-01",
+      "score": 28.0,
+      "recent_relevant_works": 2
     }
   ],
   "A5003106491": [
@@ -130,6 +210,11 @@
       "date": "2026-10-29",
       "score": 19.5,
       "recent_relevant_works": 2
+    },
+    {
+      "date": "2026-11-01",
+      "score": 19.5,
+      "recent_relevant_works": 2
     }
   ],
   "A5135247847": [
@@ -137,6 +222,27 @@
       "date": "2026-10-29",
       "score": 19.0,
       "recent_relevant_works": 2
+    }
+  ],
+  "A5079875975": [
+    {
+      "date": "2026-11-01",
+      "score": 27.5,
+      "recent_relevant_works": 5
+    }
+  ],
+  "A5032544556": [
+    {
+      "date": "2026-11-01",
+      "score": 27.5,
+      "recent_relevant_works": 5
+    }
+  ],
+  "A5033780451": [
+    {
+      "date": "2026-11-01",
+      "score": 25.5,
+      "recent_relevant_works": 9
     }
   ]
 }
