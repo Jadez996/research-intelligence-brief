@@ -11,6 +11,7 @@ The project tracks selected researchers, finds relevant new publications, genera
     generate_brief.py
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ├─ Query tracked researchers' recent papers (seed route)
         ├─ Query configured topics on OpenAlex (topic-first route)
         ├─ Merge and deduplicate results
@@ -30,6 +31,8 @@ The project tracks selected researchers, finds relevant new publications, genera
 =======
 =======
 >>>>>>> 4403d8d9ec7e1d9011d34982554f7e6af900630e
+=======
+>>>>>>> 4403d8d9ec7e1d9011d34982554f7e6af900630e
         ├─ Query OpenAlex
         ├─ Retrieve tracked researchers' papers
         ├─ Score papers by configured keywords
@@ -43,6 +46,9 @@ The project tracks selected researchers, finds relevant new publications, genera
                 ├─ Analyse researcher/group connections
                 └─ Maintain historical researcher data
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 4403d8d9ec7e1d9011d34982554f7e6af900630e
+=======
 >>>>>>> 4403d8d9ec7e1d9011d34982554f7e6af900630e
 =======
 >>>>>>> 4403d8d9ec7e1d9011d34982554f7e6af900630e
@@ -52,6 +58,7 @@ GitHub Actions runs the pipeline automatically every week.
 ## Key Files
 
 - `generate_brief.py`
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   Main pipeline: OpenAlex retrieval (seed and topic routes), relevance scoring, duplicate handling, report generation, persistent state updates, and researcher-discovery invocation.
@@ -64,6 +71,8 @@ GitHub Actions runs the pipeline automatically every week.
 =======
 =======
 >>>>>>> 4403d8d9ec7e1d9011d34982554f7e6af900630e
+=======
+>>>>>>> 4403d8d9ec7e1d9011d34982554f7e6af900630e
   Main pipeline: OpenAlex retrieval, relevance scoring, duplicate handling, report generation, persistent state updates, and researcher-discovery invocation.
 
 - `researcher_discovery.py`
@@ -72,6 +81,9 @@ GitHub Actions runs the pipeline automatically every week.
 - `config.yml`
   Main user-editable configuration including tracked researchers, groups, keywords, thresholds, and discovery settings.
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 4403d8d9ec7e1d9011d34982554f7e6af900630e
+=======
 >>>>>>> 4403d8d9ec7e1d9011d34982554f7e6af900630e
 =======
 >>>>>>> 4403d8d9ec7e1d9011d34982554f7e6af900630e
@@ -82,7 +94,11 @@ GitHub Actions runs the pipeline automatically every week.
 - `seen_works.json`
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   Persistent record of already processed qualifying OpenAlex works.
+=======
+  Persistent record of already processed OpenAlex works.
+>>>>>>> 4403d8d9ec7e1d9011d34982554f7e6af900630e
 =======
   Persistent record of already processed OpenAlex works.
 >>>>>>> 4403d8d9ec7e1d9011d34982554f7e6af900630e
@@ -98,6 +114,7 @@ GitHub Actions runs the pipeline automatically every week.
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `weekly_papers.json`
   Authoritative structured output for the current weekly run: papers with evidence, run statistics, warnings, and config fingerprint.
 
@@ -111,12 +128,15 @@ GitHub Actions runs the pipeline automatically every week.
 >>>>>>> 4403d8d9ec7e1d9011d34982554f7e6af900630e
 =======
 >>>>>>> 4403d8d9ec7e1d9011d34982554f7e6af900630e
+=======
+>>>>>>> 4403d8d9ec7e1d9011d34982554f7e6af900630e
 ## Generated Reports
 
 The main generated outputs are:
 
     weekly_brief.md
     issue_brief.md
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     weekly_papers.json
@@ -142,6 +162,8 @@ The workflow creates the GitHub Issue from `issue_brief.md` and commits/uploads 
 =======
 =======
 >>>>>>> 4403d8d9ec7e1d9011d34982554f7e6af900630e
+=======
+>>>>>>> 4403d8d9ec7e1d9011d34982554f7e6af900630e
     researcher_radar.md
     researcher_radar.json
 
@@ -149,6 +171,9 @@ The workflow creates the GitHub Issue from `issue_brief.md` and commits/uploads 
 
 `issue_brief.md` is intended to provide a shorter GitHub-Issue-safe version when the complete report becomes too long.
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 4403d8d9ec7e1d9011d34982554f7e6af900630e
+=======
 >>>>>>> 4403d8d9ec7e1d9011d34982554f7e6af900630e
 =======
 >>>>>>> 4403d8d9ec7e1d9011d34982554f7e6af900630e
@@ -161,6 +186,7 @@ Paper relevance is based on configurable keywords and tracked researchers.
 
 The relevance score represents similarity to my research interests. It does NOT represent scientific quality or importance.
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 Papers are discovered through two routes:
@@ -239,6 +265,8 @@ evidence already available from the weekly papers.
 =======
 =======
 >>>>>>> 4403d8d9ec7e1d9011d34982554f7e6af900630e
+=======
+>>>>>>> 4403d8d9ec7e1d9011d34982554f7e6af900630e
 Already processed papers are tracked using `seen_works.json` and should not normally appear again.
 
 ### Researcher discovery
@@ -251,6 +279,9 @@ The candidate's own publication history must provide topic-relevant evidence bef
 
 Recommendation scores are prioritisation heuristics, not measurements of researcher quality.
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 4403d8d9ec7e1d9011d34982554f7e6af900630e
+=======
 >>>>>>> 4403d8d9ec7e1d9011d34982554f7e6af900630e
 =======
 >>>>>>> 4403d8d9ec7e1d9011d34982554f7e6af900630e
@@ -266,6 +297,7 @@ The system is intended to identify both:
 
 ### Historical tracking
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 `researcher_history.json` stores a compact per-author history keyed by OpenAlex
@@ -295,6 +327,11 @@ Do not replace historical data with only the latest result.
 
 Do not replace historical data with only the latest result.
 >>>>>>> 4403d8d9ec7e1d9011d34982554f7e6af900630e
+=======
+`researcher_history.json` is intended for longitudinal researcher analysis.
+
+Do not replace historical data with only the latest result.
+>>>>>>> 4403d8d9ec7e1d9011d34982554f7e6af900630e
 
 ## Persistent State
 
@@ -307,6 +344,7 @@ They affect future runs.
 
 Do NOT automatically delete, reset, or recreate them during refactoring.
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 `seen_works.json` records **qualifying** papers that were successfully written to the authoritative structured output. Papers below the score threshold, excluded papers, and topic-only papers without a required keyword are not added. Papers omitted from the shortened Issue because of display limits are still recorded, so Issue length never determines scientific state.
@@ -336,6 +374,11 @@ If OpenAlex requests completely fail, persistent state should not be updated as 
 
 Researcher-discovery failure should not prevent the main weekly literature report from being generated.
 >>>>>>> 4403d8d9ec7e1d9011d34982554f7e6af900630e
+=======
+If OpenAlex requests completely fail, persistent state should not be updated as though the run succeeded.
+
+Researcher-discovery failure should not prevent the main weekly literature report from being generated.
+>>>>>>> 4403d8d9ec7e1d9011d34982554f7e6af900630e
 
 ## OpenAlex
 
@@ -348,6 +391,7 @@ Optional credentials are provided through:
 
 Do not hard-code credentials.
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 A normal weekly run uses:
@@ -388,6 +432,9 @@ Avoid unnecessary API requests. Prefer filtering candidates before requesting ad
 =======
 Avoid unnecessary API requests. Prefer filtering candidates before requesting additional researcher information.
 >>>>>>> 4403d8d9ec7e1d9011d34982554f7e6af900630e
+=======
+Avoid unnecessary API requests. Prefer filtering candidates before requesting additional researcher information.
+>>>>>>> 4403d8d9ec7e1d9011d34982554f7e6af900630e
 
 ## Instructions for AI Coding Agents
 
@@ -410,6 +457,7 @@ When given a new development request, first inspect the affected code path inste
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## GitHub Issue Length
 
 The previously documented mismatch is fixed. `generate_brief.py` writes both a complete `weekly_brief.md` and a concise `issue_brief.md`; the workflow creates the Issue from `issue_brief.md`.
@@ -418,12 +466,17 @@ The Issue is limited by selection and by `reporting.issue_max_chars`, not by inc
 =======
 =======
 >>>>>>> 4403d8d9ec7e1d9011d34982554f7e6af900630e
+=======
+>>>>>>> 4403d8d9ec7e1d9011d34982554f7e6af900630e
 ## Known Issue to Check
 
 `generate_brief.py` generates `issue_brief.md` for GitHub Issue length handling, but the current GitHub Actions workflow uses `weekly_brief.md` when creating the GitHub Issue.
 
 Check the current implementation before modifying the report-length/truncation system.
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 4403d8d9ec7e1d9011d34982554f7e6af900630e
+=======
 >>>>>>> 4403d8d9ec7e1d9011d34982554f7e6af900630e
 =======
 >>>>>>> 4403d8d9ec7e1d9011d34982554f7e6af900630e
