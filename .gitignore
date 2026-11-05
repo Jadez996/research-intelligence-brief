@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.venv/
+.deps/
+.wheels/
+.tmp/
+.tmp-tests*/
+.dryrun*/

@@ -4,6 +4,49 @@ brief:
   minimum_score: 2
   maximum_papers: 100
 
+# Topic-first discovery. This is optional: if it is disabled or absent, the
+# weekly run behaves like the original seed-author-only brief.
+paper_discovery:
+  enabled: true
+
+  # Topic searches use a wider window than the tracked-author brief so that
+  # genuinely new papers are not missed by a short lookback.
+  lookback_days: 45
+
+  # Each query costs one OpenAlex search request (10 credits). Adding queries
+  # is config-only; four queries plus a bounded radar keeps a normal run near
+  # 52 requests.
+  queries:
+    - "confined water"
+    - "interfacial water"
+    - "atomic force microscopy hydration"
+    - "titania water interface"
+
+  results_per_query: 100
+  query_bonus: 1
+  max_query_bonus: 2
+  recent_days: 30
+  recent_bonus: 2
+
+  include_types:
+    - "article"
+    - "preprint"
+    - "review"
+
+  exclude_retracted: true
+
+  # Topic-only papers must have a configured keyword match. Papers that also
+  # include a tracked author keep the existing tracked-author evidence rule.
+  require_keyword_match: true
+
+  candidate_authors_limit: 50
+
+reporting:
+  issue_top_papers: 8
+  issue_tracked_papers: 5
+  issue_candidate_authors: 5
+  issue_max_chars: 55000
+
 authors:
   - name: "Angelos Michaelides"
     openalex_id: "A5056513432"
@@ -102,47 +145,110 @@ keywords:
     - "confined water"
     - "nanoconfined water"
     - "interfacial water"
+    - "interlayer water"
+    - "two-dimensional confined water"
+    - "2D confined water"
+    - "nanofluidic"
+    - "nanofluidics"
+    - "nanochannel"
+    - "nanochannels"
+    - "angstrom-scale channel"
+    - "angstrom-scale confinement"
+    - "dielectric spectroscopy"
+    - "dielectric response"
+    - "dielectric constant"
+    - "proton transport"
+    - "Grotthuss"
+
+  medium_priority:
+    - "hydration layer"
+    - "surface hydration"
+    - "ion hydration"
+    - "hydrogen bond"
+    - "hydrogen-bond network"
+    - "two-dimensional channel"
+    - "2D channel"
+    - "van der Waals channel"
+    - "nanocapillary"
+    - "nanopore"
+    - "molecular confinement"
+    - "molecular transport"
+    - "ionic transport"
+    - "ion transport"
+    - "ionic conductivity"
+    - "proton conductivity"
+    - "electric double layer"
+    - "surface water"
+    - "solid-liquid interface"
+    - "water interface"
+    - "atomic force microscopy"
+    - "AFM"
+    - "scanning dielectric microscopy"
+    - "SDM"
+    - "2D materials"
+    - "graphene"
+    - "hexagonal boron nitride"
+    - "hBN"
+    - "van der Waals heterostructure"
+    - "nanoelectronics"
+    - "iontronics"
+    - "ionic electronics"
+    - "molecular electronics"
+    - "titania"
+    - "titanium dioxide"
+    - "TiO2"
+    - "TiOx"
     - "hectorite"
     - "montmorillonite"
     - "clay mineral"
-    - "interlayer water"
-    - "dielectric spectroscopy"
-    - "dielectric response"
-
-  medium_priority:
-    - "hydration"
-    - "hydrogen bond"
-    - "nanofluidic"
-    - "two-dimensional channel"
-    - "van der waals channel"
-    - "electric double layer"
-    - "proton transport"
-    - "ion transport"
-    - "surface water"
-    - "atomic force microscopy"
-    - "AFM"
 
   exclusion:
     - "astrophysics"
     - "cancer therapy"
     - "clinical trial"
     - "financial market"
+    - "dye degradation"
 
 researcher_discovery:
   enabled: true
 
-  # Build the seed graph from recent, topic-relevant works only.
+  # Reuse Phase 1 paper metadata for candidate discovery, then enrich only a
+  # bounded shortlist with each author's recent publication history.
   analysis_years: 5
-  works_per_seed: 20
   minimum_work_relevance: 2
 
-  # Bound API use before candidate enrichment.
-  candidate_pool_size: 30
+  # OpenAlex occasionally has duplicate author IDs for a tracked person.
+  # Exclude candidate records whose normalised name matches a configured seed.
+  exclude_seed_names: true
+
+  # 25 enrichments add 25 author-works requests. Combined with the 27 Phase 1
+  # seed/topic requests this stays near 52 requests, below the ~80 budget.
+  candidate_pool_size: 25
   maximum_researchers: 20
 
-  # Recent activity and an early-career publication-history proxy.
+  # Two relevant papers are normally required for RECOMMENDED; one-paper
+  # authors remain useful WATCH candidates.
+  recommendation_min_papers: 2
+
+  # Concise Issue limits. The full set remains in researcher_radar.json.
+  issue_recommended: 3
+  issue_watch: 2
+  issue_outside: 3
+  issue_reappearing: 3
+  issue_emerging: 3
+
+  # EMERGING_ACTIVITY is a recent-publication-rate signal only. It is not
+  # age, career stage, seniority, quality, or citation impact.
+  emerging_min_recent: 2
+  emerging_rate_multiplier: 1.5
+
+  enrich_include_types:
+    - "article"
+    - "preprint"
+    - "review"
+
+  # Recent activity window.
   recent_years: 2
-  early_career_first_publication_years: 8
 
   # Flag group pairs with overlapping OpenAlex topics but no observed
   # relevant coauthored work between configured seed groups.

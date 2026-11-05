@@ -27,6 +27,10 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      - name: Run tests
+        run: |
+          python -m unittest discover -v
+
       - name: Generate weekly brief
         env:
           OPENALEX_EMAIL: ${{ secrets.OPENALEX_EMAIL }}
@@ -34,36 +38,48 @@ jobs:
         run: |
           python generate_brief.py
 
-      - name: Check generated reports
+      - name: Validate generated reports
         run: |
           test -f weekly_brief.md
           test -f issue_brief.md
+          test -f weekly_papers.json
+          test -f weekly_papers.csv
           test -f researcher_radar.md
           test -f researcher_radar.json
           test -f researcher_history.json
-          echo "Generated files:"
-          ls -lh weekly_brief.md issue_brief.md researcher_radar.md researcher_radar.json researcher_history.json
-          sed -n '1,80p' weekly_brief.md
+          test -f run_manifest.json
+          python - <<'PY'
+          import json
+          from pathlib import Path
 
-      - name: Create GitHub issue
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: |
-          ISSUE_TITLE="Research Bulletin $(date -u +%Y-%m-%d)"
-          gh issue create \
-            --title "$ISSUE_TITLE" \
-            --body-file weekly_brief.md \
-            --label "research-brief"
+          payload = json.loads(Path("weekly_papers.json").read_text(encoding="utf-8"))
+          manifest = json.loads(Path("run_manifest.json").read_text(encoding="utf-8"))
+          radar = json.loads(Path("researcher_radar.json").read_text(encoding="utf-8"))
+          history = json.loads(Path("researcher_history.json").read_text(encoding="utf-8"))
+
+          assert isinstance(payload["papers"], list), "papers must be a list"
+          assert manifest["status"] in {"ok", "empty", "partial", "failed"}
+          assert manifest["counts"]["papers"] == payload["run"]["qualifying"]
+          assert radar["schema_version"] == 3
+          assert isinstance(history, dict)
+          if manifest["search_routes"]["radar"]["attempted"]:
+              assert manifest["search_routes"]["radar"]["succeeded"], "researcher radar failed"
+          assert Path("issue_brief.md").stat().st_size > 0
+          print("Output validation passed:", manifest["status"])
+          PY
+          echo "Generated files:"
+          ls -lh weekly_brief.md issue_brief.md weekly_papers.json weekly_papers.csv researcher_radar.md researcher_radar.json researcher_history.json run_manifest.json
+          sed -n '1,80p' issue_brief.md
 
       - name: Save generated state and researcher radar
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add seen_works.json researcher_radar.md researcher_radar.json researcher_history.json
+          git add seen_works.json weekly_papers.json weekly_papers.csv researcher_radar.md researcher_radar.json researcher_history.json run_manifest.json
           if git diff --cached --quiet; then
             echo "No generated changes to commit."
           else
-            git commit -m "Update processed works and researcher radar"
+            git commit -m "Update processed works, researcher radar, and run manifest"
             git push
           fi
 
@@ -75,8 +91,21 @@ jobs:
           path: |
             weekly_brief.md
             issue_brief.md
+            weekly_papers.json
+            weekly_papers.csv
             researcher_radar.md
             researcher_radar.json
             researcher_history.json
+            run_manifest.json
             seen_works.json
           retention-days: 30
+
+      - name: Create GitHub issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          ISSUE_TITLE="Research Bulletin $(date -u +%Y-%m-%d)"
+          gh issue create \
+            --title "$ISSUE_TITLE" \
+            --body-file issue_brief.md \
+            --label "research-brief"

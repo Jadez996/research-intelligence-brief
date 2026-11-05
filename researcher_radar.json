@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-29",
+  "generated": "2026-11-01",
   "researchers": [
     {
       "openalex_id": "A5093427169",
@@ -18,30 +18,30 @@
         "Interfacial water",
         "Nanofluidics"
       ],
-      "coauthored_relevant_works": 9,
-      "recent_relevant_works": 13,
+      "coauthored_relevant_works": 10,
+      "recent_relevant_works": 12,
       "first_publication_year_signal": 2023,
       "early_career_signal": true,
       "emerging_topic_signal": true,
-      "recent_topic_rate_per_year": 6.5,
+      "recent_topic_rate_per_year": 6.0,
       "prior_topic_rate_per_year": 1.33,
       "top_keywords": [
         "confined water",
         "interfacial water",
         "hydrogen bond",
-        "nanoconfined water",
         "nanofluidic",
+        "nanoconfined water",
         "proton transport",
-        "montmorillonite",
-        "clay mineral"
+        "atomic force microscopy",
+        "AFM"
       ],
       "reasons": [
-        "9 topic-relevant coauthored work(s) with seed researchers",
+        "10 topic-relevant coauthored work(s) with seed researchers",
         "connected to 4 seed researchers",
         "bridges 3 configured groups",
-        "13 relevant work(s) in the recent analysis window",
+        "12 relevant work(s) in the recent analysis window",
         "recent topic-publication rate is at least twice the earlier-window rate",
-        "matched topics: confined water, interfacial water, hydrogen bond, nanoconfined water, nanofluidic"
+        "matched topics: confined water, interfacial water, hydrogen bond, nanofluidic, nanoconfined water"
       ],
       "evidence_works": [
         {
@@ -70,8 +70,79 @@
           "score": 7
         }
       ],
-      "works_count": 39,
-      "cited_by_count": 796
+      "works_count": 34,
+      "cited_by_count": 806
+    },
+    {
+      "openalex_id": "A5026599330",
+      "name": "Christoph Schran",
+      "institution": "University of Cambridge",
+      "recommendation_score": 36.5,
+      "seed_connections": 3,
+      "seed_names": [
+        "Angelos Michaelides",
+        "Laura Fumagalli",
+        "Lydéric Bocquet"
+      ],
+      "groups": [
+        "Confined water",
+        "Interfacial water",
+        "Nanofluidics"
+      ],
+      "coauthored_relevant_works": 8,
+      "recent_relevant_works": 11,
+      "first_publication_year_signal": 2016,
+      "early_career_signal": false,
+      "emerging_topic_signal": true,
+      "recent_topic_rate_per_year": 5.5,
+      "prior_topic_rate_per_year": 1.67,
+      "top_keywords": [
+        "hydrogen bond",
+        "confined water",
+        "interfacial water",
+        "nanoconfined water",
+        "nanofluidic",
+        "electric double layer",
+        "atomic force microscopy",
+        "AFM"
+      ],
+      "reasons": [
+        "8 topic-relevant coauthored work(s) with seed researchers",
+        "connected to 3 seed researchers",
+        "bridges 3 configured groups",
+        "11 relevant work(s) in the recent analysis window",
+        "recent topic-publication rate is at least twice the earlier-window rate",
+        "matched topics: hydrogen bond, confined water, interfacial water, nanoconfined water, nanofluidic"
+      ],
+      "evidence_works": [
+        {
+          "title": "How reactive is water at the nanoscale and how to control it?",
+          "date": "2026-06-24",
+          "score": 7
+        },
+        {
+          "title": "Nanoconfined superionic water is a molecular superionic",
+          "date": "2026-04-10",
+          "score": 7
+        },
+        {
+          "title": "Research data supporting \"Nanoconfined superionic water is a molecular superionic\"",
+          "date": "2026-03-27",
+          "score": 3
+        },
+        {
+          "title": "Breaking the Air–Water Paradigm: Ion Behavior at Hydrophobic Solid–Water Interfaces",
+          "date": "2026-03-19",
+          "score": 5
+        },
+        {
+          "title": "When is nanoconfined water different from interfacial water?",
+          "date": "2026-01-01",
+          "score": 10
+        }
+      ],
+      "works_count": 105,
+      "cited_by_count": 2500
     },
     {
       "openalex_id": "A5009821984",
@@ -139,8 +210,78 @@
           "score": 6
         }
       ],
-      "works_count": 159,
-      "cited_by_count": 3368
+      "works_count": 158,
+      "cited_by_count": 3380
+    },
+    {
+      "openalex_id": "A5027388818",
+      "name": "Marie‐Laure Bocquet",
+      "institution": "Université Paris Cité",
+      "recommendation_score": 36.5,
+      "seed_connections": 3,
+      "seed_names": [
+        "Angelos Michaelides",
+        "Laura Fumagalli",
+        "Lydéric Bocquet"
+      ],
+      "groups": [
+        "Confined water",
+        "Interfacial water",
+        "Nanofluidics"
+      ],
+      "coauthored_relevant_works": 5,
+      "recent_relevant_works": 5,
+      "first_publication_year_signal": 1992,
+      "early_career_signal": false,
+      "emerging_topic_signal": false,
+      "recent_topic_rate_per_year": 2.5,
+      "prior_topic_rate_per_year": 1.33,
+      "top_keywords": [
+        "interfacial water",
+        "nanofluidic",
+        "confined water",
+        "dielectric response",
+        "hydrogen bond",
+        "atomic force microscopy",
+        "AFM",
+        "ion transport"
+      ],
+      "reasons": [
+        "5 topic-relevant coauthored work(s) with seed researchers",
+        "connected to 3 seed researchers",
+        "bridges 3 configured groups",
+        "5 relevant work(s) in the recent analysis window",
+        "matched topics: interfacial water, nanofluidic, confined water, dielectric response, hydrogen bond"
+      ],
+      "evidence_works": [
+        {
+          "title": "Water at the molecular frontier",
+          "date": "2026-10-27",
+          "score": 10
+        },
+        {
+          "title": "Stacking-Controlled Reactivity and Friction of Water in Atomic-Scale hBN Channels from First Principles",
+          "date": "2026-01-29",
+          "score": 7
+        },
+        {
+          "title": "Water at the molecular frontier",
+          "date": "2026-10-27",
+          "score": 10
+        },
+        {
+          "title": "Stacking-Controlled Reactivity and Friction of Water in Atomic-Scale hBN Channels from First Principles",
+          "date": "2026-01-29",
+          "score": 7
+        },
+        {
+          "title": "Spontaneous Surface Charging and Janus Nature of the Hexagonal Boron Nitride–Water Interface",
+          "date": "2025-08-06",
+          "score": 7
+        }
+      ],
+      "works_count": 150,
+      "cited_by_count": 7181
     },
     {
       "openalex_id": "A5058519201",
@@ -208,277 +349,67 @@
         }
       ],
       "works_count": 91,
-      "cited_by_count": 3160
+      "cited_by_count": 3166
     },
     {
-      "openalex_id": "A5027388818",
-      "name": "Marie‐Laure Bocquet",
-      "institution": "Université Paris Cité",
-      "recommendation_score": 34.5,
+      "openalex_id": "A5101457849",
+      "name": "Yongkang Wang",
+      "institution": "Max Planck Institute for Polymer Research",
+      "recommendation_score": 32.5,
       "seed_connections": 3,
       "seed_names": [
         "Angelos Michaelides",
-        "Laura Fumagalli",
-        "Lydéric Bocquet"
+        "Lydéric Bocquet",
+        "Mischa Bonn"
       ],
       "groups": [
-        "Confined water",
+        "Interfacial spectroscopy",
         "Interfacial water",
         "Nanofluidics"
       ],
-      "coauthored_relevant_works": 4,
-      "recent_relevant_works": 5,
-      "first_publication_year_signal": 1992,
+      "coauthored_relevant_works": 3,
+      "recent_relevant_works": 6,
+      "first_publication_year_signal": 2006,
       "early_career_signal": false,
       "emerging_topic_signal": false,
-      "recent_topic_rate_per_year": 2.5,
-      "prior_topic_rate_per_year": 1.33,
+      "recent_topic_rate_per_year": 3.0,
+      "prior_topic_rate_per_year": 4.33,
       "top_keywords": [
-        "nanofluidic",
         "interfacial water",
-        "dielectric response",
-        "confined water",
         "hydrogen bond",
+        "nanofluidic",
         "atomic force microscopy",
         "AFM",
+        "confined water",
+        "nanoconfined water",
         "ion transport"
       ],
       "reasons": [
-        "4 topic-relevant coauthored work(s) with seed researchers",
+        "3 topic-relevant coauthored work(s) with seed researchers",
         "connected to 3 seed researchers",
         "bridges 3 configured groups",
-        "5 relevant work(s) in the recent analysis window",
-        "matched topics: nanofluidic, interfacial water, dielectric response, confined water, hydrogen bond"
+        "6 relevant work(s) in the recent analysis window",
+        "matched topics: interfacial water, hydrogen bond, nanofluidic, atomic force microscopy, AFM"
       ],
       "evidence_works": [
-        {
-          "title": "Water at the molecular frontier",
-          "date": "2026-10-27",
-          "score": 4
-        },
-        {
-          "title": "Stacking-Controlled Reactivity and Friction of Water in Atomic-Scale hBN Channels from First Principles",
-          "date": "2026-01-29",
-          "score": 7
-        },
-        {
-          "title": "Water at the molecular frontier",
-          "date": "2026-10-27",
-          "score": 4
-        },
-        {
-          "title": "Stacking-Controlled Reactivity and Friction of Water in Atomic-Scale hBN Channels from First Principles",
-          "date": "2026-01-29",
-          "score": 7
-        }
-      ],
-      "works_count": 151,
-      "cited_by_count": 7181
-    },
-    {
-      "openalex_id": "A5026599330",
-      "name": "Christoph Schran",
-      "institution": "University of Cambridge",
-      "recommendation_score": 31.5,
-      "seed_connections": 2,
-      "seed_names": [
-        "Angelos Michaelides",
-        "Laura Fumagalli"
-      ],
-      "groups": [
-        "Confined water",
-        "Interfacial water"
-      ],
-      "coauthored_relevant_works": 7,
-      "recent_relevant_works": 12,
-      "first_publication_year_signal": 2016,
-      "early_career_signal": false,
-      "emerging_topic_signal": true,
-      "recent_topic_rate_per_year": 6.0,
-      "prior_topic_rate_per_year": 1.67,
-      "top_keywords": [
-        "confined water",
-        "hydrogen bond",
-        "nanoconfined water",
-        "interfacial water",
-        "nanofluidic",
-        "electric double layer",
-        "montmorillonite",
-        "clay mineral"
-      ],
-      "reasons": [
-        "7 topic-relevant coauthored work(s) with seed researchers",
-        "connected to 2 seed researchers",
-        "bridges 2 configured groups",
-        "12 relevant work(s) in the recent analysis window",
-        "recent topic-publication rate is at least twice the earlier-window rate",
-        "matched topics: confined water, hydrogen bond, nanoconfined water, interfacial water, nanofluidic"
-      ],
-      "evidence_works": [
-        {
-          "title": "How reactive is water at the nanoscale and how to control it?",
-          "date": "2026-06-24",
-          "score": 7
-        },
-        {
-          "title": "Nanoconfined superionic water is a molecular superionic",
-          "date": "2026-04-10",
-          "score": 7
-        },
-        {
-          "title": "Research data supporting \"Nanoconfined superionic water is a molecular superionic\"",
-          "date": "2026-03-27",
-          "score": 3
-        },
         {
           "title": "Breaking the Air–Water Paradigm: Ion Behavior at Hydrophobic Solid–Water Interfaces",
           "date": "2026-03-19",
           "score": 5
         },
         {
-          "title": "When is nanoconfined water different from interfacial water?",
-          "date": "2026-01-01",
-          "score": 10
-        }
-      ],
-      "works_count": 110,
-      "cited_by_count": 2486
-    },
-    {
-      "openalex_id": "A5051222883",
-      "name": "Ankit Bhardwaj",
-      "institution": "University of Manchester",
-      "recommendation_score": 31.5,
-      "seed_connections": 2,
-      "seed_names": [
-        "Boya Radha",
-        "Narayana R. Aluru"
-      ],
-      "groups": [
-        "Confined water",
-        "Nanofluidics"
-      ],
-      "coauthored_relevant_works": 5,
-      "recent_relevant_works": 5,
-      "first_publication_year_signal": 2018,
-      "early_career_signal": true,
-      "emerging_topic_signal": true,
-      "recent_topic_rate_per_year": 2.5,
-      "prior_topic_rate_per_year": 1.0,
-      "top_keywords": [
-        "ion transport",
-        "nanofluidic",
-        "confined water",
-        "clay mineral",
-        "nanoconfined water",
-        "hydration",
-        "interfacial water",
-        "two-dimensional channel"
-      ],
-      "reasons": [
-        "5 topic-relevant coauthored work(s) with seed researchers",
-        "connected to 2 seed researchers",
-        "bridges 2 configured groups",
-        "5 relevant work(s) in the recent analysis window",
-        "recent topic-publication rate is at least twice the earlier-window rate",
-        "matched topics: ion transport, nanofluidic, confined water, clay mineral, nanoconfined water"
-      ],
-      "evidence_works": [
-        {
-          "title": "Multi‐Stimuli Responsive Angstrom‐Scale Two‐Dimensional Channels of Natural Layered Materials",
-          "date": "2026-08-26",
-          "score": 5
+          "title": "Visible light leaves evaporation and interfacial structure of neat water unchanged at the air–water interface",
+          "date": "2026-09-14",
+          "score": 4
         },
         {
-          "title": "Two-dimensional clay channels for tunable nanofluidic memristor",
-          "date": "2026-07-31",
-          "score": 2
-        },
-        {
-          "title": "Observation of long-lived spin order in nanoconfined water",
-          "date": "2026-07-30",
+          "title": "Spontaneous Surface Charging and Janus Nature of the Hexagonal Boron Nitride–Water Interface",
+          "date": "2025-08-06",
           "score": 7
-        },
-        {
-          "title": "Two-dimensional clay channels for tunable nanofluidic memristor",
-          "date": "2026-05-07",
-          "score": 2
-        },
-        {
-          "title": "Multi‐Stimuli Responsive Angstrom‐Scale Two‐Dimensional Channels of Natural Layered Materials",
-          "date": "2026-08-26",
-          "score": 5
         }
       ],
-      "works_count": 15,
-      "cited_by_count": 208
-    },
-    {
-      "openalex_id": "A5004666527",
-      "name": "Baptiste Coquinot",
-      "institution": "Centre National de la Recherche Scientifique",
-      "recommendation_score": 31.5,
-      "seed_connections": 3,
-      "seed_names": [
-        "Lydéric Bocquet",
-        "Nikita Kavokine",
-        "Qian Yang"
-      ],
-      "groups": [
-        "Confined water",
-        "Nanofluidics"
-      ],
-      "coauthored_relevant_works": 6,
-      "recent_relevant_works": 4,
-      "first_publication_year_signal": 2019,
-      "early_career_signal": true,
-      "emerging_topic_signal": true,
-      "recent_topic_rate_per_year": 2.0,
-      "prior_topic_rate_per_year": 1.0,
-      "top_keywords": [
-        "nanofluidic",
-        "ion transport",
-        "confined water",
-        "dielectric response",
-        "AFM"
-      ],
-      "reasons": [
-        "6 topic-relevant coauthored work(s) with seed researchers",
-        "connected to 3 seed researchers",
-        "bridges 2 configured groups",
-        "4 relevant work(s) in the recent analysis window",
-        "recent topic-publication rate is at least twice the earlier-window rate",
-        "matched topics: nanofluidic, ion transport, confined water, dielectric response, AFM"
-      ],
-      "evidence_works": [
-        {
-          "title": "Architecting mechanosensitive nanofluidic transport in graphite nanoslits",
-          "date": "2026-05-01",
-          "score": 2
-        },
-        {
-          "title": "Architecting mechanosensitive nanofluidic transport in graphite nanoslits",
-          "date": "2026-05-01",
-          "score": 2
-        },
-        {
-          "title": "Architecting mechanosensitive nanofluidic transport in graphite nanoslits",
-          "date": "2026-07-29",
-          "score": 2
-        },
-        {
-          "title": "Architecting mechanosensitive nanofluidic transport in graphite nanoslits",
-          "date": "2026-05-01",
-          "score": 2
-        },
-        {
-          "title": "Architecting mechanosensitive nanofluidic transport in graphite nanoslits",
-          "date": "2026-05-01",
-          "score": 2
-        }
-      ],
-      "works_count": 32,
-      "cited_by_count": 185
+      "works_count": 35,
+      "cited_by_count": 586
     },
     {
       "openalex_id": "A5089096336",
@@ -540,7 +471,7 @@
           "score": 4
         }
       ],
-      "works_count": 48,
+      "works_count": 46,
       "cited_by_count": 1126
     },
     {
@@ -609,14 +540,14 @@
           "score": 8
         }
       ],
-      "works_count": 640,
-      "cited_by_count": 345722
+      "works_count": 637,
+      "cited_by_count": 345669
     },
     {
-      "openalex_id": "A5044554099",
-      "name": "Raj Kumar Gogoi",
+      "openalex_id": "A5051222883",
+      "name": "Ankit Bhardwaj",
       "institution": "University of Manchester",
-      "recommendation_score": 27.0,
+      "recommendation_score": 28.0,
       "seed_connections": 2,
       "seed_names": [
         "Boya Radha",
@@ -626,25 +557,30 @@
         "Confined water",
         "Nanofluidics"
       ],
-      "coauthored_relevant_works": 5,
-      "recent_relevant_works": 5,
-      "first_publication_year_signal": 2017,
-      "early_career_signal": false,
+      "coauthored_relevant_works": 4,
+      "recent_relevant_works": 4,
+      "first_publication_year_signal": 2018,
+      "early_career_signal": true,
       "emerging_topic_signal": true,
-      "recent_topic_rate_per_year": 2.5,
+      "recent_topic_rate_per_year": 2.0,
       "prior_topic_rate_per_year": 1.0,
       "top_keywords": [
-        "nanofluidic",
         "ion transport",
-        "clay mineral"
+        "nanofluidic",
+        "confined water",
+        "clay mineral",
+        "nanoconfined water",
+        "hydration",
+        "interfacial water",
+        "two-dimensional channel"
       ],
       "reasons": [
-        "5 topic-relevant coauthored work(s) with seed researchers",
+        "4 topic-relevant coauthored work(s) with seed researchers",
         "connected to 2 seed researchers",
         "bridges 2 configured groups",
-        "5 relevant work(s) in the recent analysis window",
+        "4 relevant work(s) in the recent analysis window",
         "recent topic-publication rate is at least twice the earlier-window rate",
-        "matched topics: nanofluidic, ion transport, clay mineral"
+        "matched topics: ion transport, nanofluidic, confined water, clay mineral, nanoconfined water"
       ],
       "evidence_works": [
         {
@@ -658,14 +594,9 @@
           "score": 2
         },
         {
-          "title": "Two-dimensional clay channels for tunable nanofluidic memristor",
-          "date": "2026-05-07",
-          "score": 2
-        },
-        {
-          "title": "2D Copper MOF Membranes with Precise Pores for Ionic Memory",
-          "date": "2026-03-24",
-          "score": 2
+          "title": "Observation of long-lived spin order in nanoconfined water",
+          "date": "2026-07-30",
+          "score": 7
         },
         {
           "title": "Multi‐Stimuli Responsive Angstrom‐Scale Two‐Dimensional Channels of Natural Layered Materials",
@@ -673,8 +604,246 @@
           "score": 5
         }
       ],
-      "works_count": 25,
-      "cited_by_count": 317
+      "works_count": 14,
+      "cited_by_count": 208
+    },
+    {
+      "openalex_id": "A5004666527",
+      "name": "Baptiste Coquinot",
+      "institution": "Centre National de la Recherche Scientifique",
+      "recommendation_score": 28.0,
+      "seed_connections": 3,
+      "seed_names": [
+        "Lydéric Bocquet",
+        "Nikita Kavokine",
+        "Qian Yang"
+      ],
+      "groups": [
+        "Confined water",
+        "Nanofluidics"
+      ],
+      "coauthored_relevant_works": 4,
+      "recent_relevant_works": 3,
+      "first_publication_year_signal": 2019,
+      "early_career_signal": true,
+      "emerging_topic_signal": false,
+      "recent_topic_rate_per_year": 1.5,
+      "prior_topic_rate_per_year": 1.0,
+      "top_keywords": [
+        "nanofluidic",
+        "ion transport",
+        "confined water",
+        "dielectric response",
+        "AFM"
+      ],
+      "reasons": [
+        "4 topic-relevant coauthored work(s) with seed researchers",
+        "connected to 3 seed researchers",
+        "bridges 2 configured groups",
+        "3 relevant work(s) in the recent analysis window",
+        "matched topics: nanofluidic, ion transport, confined water, dielectric response, AFM"
+      ],
+      "evidence_works": [
+        {
+          "title": "Architecting mechanosensitive nanofluidic transport in graphite nanoslits",
+          "date": "2026-05-01",
+          "score": 2
+        },
+        {
+          "title": "Architecting mechanosensitive nanofluidic transport in graphite nanoslits",
+          "date": "2026-07-29",
+          "score": 2
+        },
+        {
+          "title": "Architecting mechanosensitive nanofluidic transport in graphite nanoslits",
+          "date": "2026-05-01",
+          "score": 2
+        },
+        {
+          "title": "Momentum tunnelling between nanoscale liquid flows",
+          "date": "2025-01-02",
+          "score": 3
+        }
+      ],
+      "works_count": 32,
+      "cited_by_count": 185
+    },
+    {
+      "openalex_id": "A5042727456",
+      "name": "Ali Esfandiar",
+      "institution": "Sharif University of Technology",
+      "recommendation_score": 28.0,
+      "seed_connections": 3,
+      "seed_names": [
+        "Andre K. Geim",
+        "Laura Fumagalli",
+        "Lydéric Bocquet"
+      ],
+      "groups": [
+        "2D",
+        "Confined water",
+        "Nanofluidics"
+      ],
+      "coauthored_relevant_works": 3,
+      "recent_relevant_works": 2,
+      "first_publication_year_signal": 2010,
+      "early_career_signal": false,
+      "emerging_topic_signal": true,
+      "recent_topic_rate_per_year": 1.0,
+      "prior_topic_rate_per_year": 0.0,
+      "top_keywords": [
+        "hydrogen bond",
+        "confined water",
+        "nanoconfined water",
+        "interfacial water",
+        "nanofluidic",
+        "atomic force microscopy",
+        "AFM"
+      ],
+      "reasons": [
+        "3 topic-relevant coauthored work(s) with seed researchers",
+        "connected to 3 seed researchers",
+        "bridges 3 configured groups",
+        "2 relevant work(s) in the recent analysis window",
+        "recent topic-publication rate is at least twice the earlier-window rate",
+        "matched topics: hydrogen bond, confined water, nanoconfined water, interfacial water, nanofluidic"
+      ],
+      "evidence_works": [
+        {
+          "title": "In-plane dielectric constant and conductivity of confined water",
+          "date": "2025-10-15",
+          "score": 7
+        },
+        {
+          "title": "In-plane dielectric constant and conductivity of confined water",
+          "date": "2025-10-15",
+          "score": 7
+        },
+        {
+          "title": "Spontaneous Surface Charging and Janus Nature of the Hexagonal Boron Nitride–Water Interface",
+          "date": "2025-08-06",
+          "score": 7
+        }
+      ],
+      "works_count": 86,
+      "cited_by_count": 6997
+    },
+    {
+      "openalex_id": "A5079875975",
+      "name": "Kara D. Fong",
+      "institution": "California Institute of Technology",
+      "recommendation_score": 27.5,
+      "seed_connections": 2,
+      "seed_names": [
+        "Angelos Michaelides",
+        "Lydéric Bocquet"
+      ],
+      "groups": [
+        "Interfacial water",
+        "Nanofluidics"
+      ],
+      "coauthored_relevant_works": 3,
+      "recent_relevant_works": 5,
+      "first_publication_year_signal": 2014,
+      "early_career_signal": false,
+      "emerging_topic_signal": true,
+      "recent_topic_rate_per_year": 2.5,
+      "prior_topic_rate_per_year": 0.0,
+      "top_keywords": [
+        "nanofluidic",
+        "interfacial water",
+        "hydrogen bond",
+        "confined water",
+        "nanoconfined water",
+        "atomic force microscopy",
+        "AFM",
+        "electric double layer"
+      ],
+      "reasons": [
+        "3 topic-relevant coauthored work(s) with seed researchers",
+        "connected to 2 seed researchers",
+        "bridges 2 configured groups",
+        "5 relevant work(s) in the recent analysis window",
+        "recent topic-publication rate is at least twice the earlier-window rate",
+        "matched topics: nanofluidic, interfacial water, hydrogen bond, confined water, nanoconfined water"
+      ],
+      "evidence_works": [
+        {
+          "title": "How reactive is water at the nanoscale and how to control it?",
+          "date": "2026-06-24",
+          "score": 7
+        },
+        {
+          "title": "Breaking the Air–Water Paradigm: Ion Behavior at Hydrophobic Solid–Water Interfaces",
+          "date": "2026-03-19",
+          "score": 5
+        },
+        {
+          "title": "Spontaneous Surface Charging and Janus Nature of the Hexagonal Boron Nitride–Water Interface",
+          "date": "2025-08-06",
+          "score": 7
+        }
+      ],
+      "works_count": 65,
+      "cited_by_count": 2222
+    },
+    {
+      "openalex_id": "A5032544556",
+      "name": "Arsh S. Hazrah",
+      "institution": "University of Alberta",
+      "recommendation_score": 27.5,
+      "seed_connections": 2,
+      "seed_names": [
+        "Lydéric Bocquet",
+        "Mischa Bonn"
+      ],
+      "groups": [
+        "Interfacial spectroscopy",
+        "Nanofluidics"
+      ],
+      "coauthored_relevant_works": 3,
+      "recent_relevant_works": 5,
+      "first_publication_year_signal": 2018,
+      "early_career_signal": true,
+      "emerging_topic_signal": true,
+      "recent_topic_rate_per_year": 2.5,
+      "prior_topic_rate_per_year": 0.0,
+      "top_keywords": [
+        "interfacial water",
+        "hydrogen bond",
+        "hydration",
+        "electric double layer",
+        "nanofluidic",
+        "atomic force microscopy",
+        "AFM"
+      ],
+      "reasons": [
+        "3 topic-relevant coauthored work(s) with seed researchers",
+        "connected to 2 seed researchers",
+        "bridges 2 configured groups",
+        "5 relevant work(s) in the recent analysis window",
+        "recent topic-publication rate is at least twice the earlier-window rate",
+        "matched topics: interfacial water, hydrogen bond, hydration, electric double layer, nanofluidic"
+      ],
+      "evidence_works": [
+        {
+          "title": "Ultrafast Nonlinear Vibrational Spectroscopy of Aqueous Solutions at Surfaces and in Heterogeneous Environments",
+          "date": "2026-10-27",
+          "score": 6
+        },
+        {
+          "title": "Visible light leaves evaporation and interfacial structure of neat water unchanged at the air–water interface",
+          "date": "2026-09-14",
+          "score": 4
+        },
+        {
+          "title": "Spontaneous Surface Charging and Janus Nature of the Hexagonal Boron Nitride–Water Interface",
+          "date": "2025-08-06",
+          "score": 7
+        }
+      ],
+      "works_count": 41,
+      "cited_by_count": 313
     },
     {
       "openalex_id": "A5069715513",
@@ -741,7 +910,7 @@
         }
       ],
       "works_count": 26,
-      "cited_by_count": 631
+      "cited_by_count": 633
     },
     {
       "openalex_id": "A5043856865",
@@ -802,124 +971,119 @@
         }
       ],
       "works_count": 16,
-      "cited_by_count": 130
+      "cited_by_count": 131
     },
     {
-      "openalex_id": "A5101457849",
-      "name": "Yongkang Wang",
+      "openalex_id": "A5033780451",
+      "name": "Yuki Nagata",
       "institution": "Max Planck Institute for Polymer Research",
       "recommendation_score": 25.5,
       "seed_connections": 2,
       "seed_names": [
-        "Angelos Michaelides",
+        "Lydéric Bocquet",
         "Mischa Bonn"
       ],
       "groups": [
         "Interfacial spectroscopy",
-        "Interfacial water"
+        "Nanofluidics"
       ],
       "coauthored_relevant_works": 2,
-      "recent_relevant_works": 6,
-      "first_publication_year_signal": 2006,
+      "recent_relevant_works": 9,
+      "first_publication_year_signal": 2002,
       "early_career_signal": false,
       "emerging_topic_signal": false,
-      "recent_topic_rate_per_year": 3.0,
-      "prior_topic_rate_per_year": 4.33,
+      "recent_topic_rate_per_year": 4.5,
+      "prior_topic_rate_per_year": 6.0,
       "top_keywords": [
         "interfacial water",
         "hydrogen bond",
-        "nanofluidic",
-        "confined water",
-        "nanoconfined water",
         "atomic force microscopy",
         "AFM",
-        "ion transport"
+        "confined water",
+        "nanofluidic",
+        "nanoconfined water",
+        "hydration"
       ],
       "reasons": [
         "2 topic-relevant coauthored work(s) with seed researchers",
         "connected to 2 seed researchers",
         "bridges 2 configured groups",
-        "6 relevant work(s) in the recent analysis window",
-        "matched topics: interfacial water, hydrogen bond, nanofluidic, confined water, nanoconfined water"
+        "9 relevant work(s) in the recent analysis window",
+        "matched topics: interfacial water, hydrogen bond, atomic force microscopy, AFM, confined water"
       ],
       "evidence_works": [
-        {
-          "title": "Breaking the Air–Water Paradigm: Ion Behavior at Hydrophobic Solid–Water Interfaces",
-          "date": "2026-03-19",
-          "score": 5
-        },
         {
           "title": "Visible light leaves evaporation and interfacial structure of neat water unchanged at the air–water interface",
           "date": "2026-09-14",
           "score": 4
+        },
+        {
+          "title": "Spontaneous Surface Charging and Janus Nature of the Hexagonal Boron Nitride–Water Interface",
+          "date": "2025-08-06",
+          "score": 7
         }
       ],
-      "works_count": 35,
-      "cited_by_count": 583
+      "works_count": 184,
+      "cited_by_count": 8894
     },
     {
-      "openalex_id": "A5011032680",
-      "name": "Mathieu Lizée",
-      "institution": "Centre National de la Recherche Scientifique",
-      "recommendation_score": 25.5,
+      "openalex_id": "A5044554099",
+      "name": "Raj Kumar Gogoi",
+      "institution": "University of Manchester",
+      "recommendation_score": 23.5,
       "seed_connections": 2,
       "seed_names": [
-        "Lydéric Bocquet",
-        "Qian Yang"
+        "Boya Radha",
+        "Narayana R. Aluru"
       ],
       "groups": [
         "Confined water",
         "Nanofluidics"
       ],
-      "coauthored_relevant_works": 5,
+      "coauthored_relevant_works": 4,
       "recent_relevant_works": 4,
-      "first_publication_year_signal": 2022,
-      "early_career_signal": true,
+      "first_publication_year_signal": 2017,
+      "early_career_signal": false,
       "emerging_topic_signal": true,
       "recent_topic_rate_per_year": 2.0,
       "prior_topic_rate_per_year": 1.0,
       "top_keywords": [
         "nanofluidic",
         "ion transport",
-        "AFM"
+        "clay mineral"
       ],
       "reasons": [
-        "5 topic-relevant coauthored work(s) with seed researchers",
+        "4 topic-relevant coauthored work(s) with seed researchers",
         "connected to 2 seed researchers",
         "bridges 2 configured groups",
         "4 relevant work(s) in the recent analysis window",
         "recent topic-publication rate is at least twice the earlier-window rate",
-        "matched topics: nanofluidic, ion transport, AFM"
+        "matched topics: nanofluidic, ion transport, clay mineral"
       ],
       "evidence_works": [
         {
-          "title": "Architecting mechanosensitive nanofluidic transport in graphite nanoslits",
-          "date": "2026-05-01",
+          "title": "Multi‐Stimuli Responsive Angstrom‐Scale Two‐Dimensional Channels of Natural Layered Materials",
+          "date": "2026-08-26",
+          "score": 5
+        },
+        {
+          "title": "Two-dimensional clay channels for tunable nanofluidic memristor",
+          "date": "2026-07-31",
           "score": 2
         },
         {
-          "title": "Architecting mechanosensitive nanofluidic transport in graphite nanoslits",
-          "date": "2026-05-01",
+          "title": "2D Copper MOF Membranes with Precise Pores for Ionic Memory",
+          "date": "2026-03-24",
           "score": 2
         },
         {
-          "title": "Architecting mechanosensitive nanofluidic transport in graphite nanoslits",
-          "date": "2026-07-29",
-          "score": 2
-        },
-        {
-          "title": "Architecting mechanosensitive nanofluidic transport in graphite nanoslits",
-          "date": "2026-05-01",
-          "score": 2
-        },
-        {
-          "title": "Architecting mechanosensitive nanofluidic transport in graphite nanoslits",
-          "date": "2026-05-01",
-          "score": 2
+          "title": "Multi‐Stimuli Responsive Angstrom‐Scale Two‐Dimensional Channels of Natural Layered Materials",
+          "date": "2026-08-26",
+          "score": 5
         }
       ],
-      "works_count": 30,
-      "cited_by_count": 87
+      "works_count": 24,
+      "cited_by_count": 317
     },
     {
       "openalex_id": "A5062916580",
@@ -976,163 +1140,65 @@
         }
       ],
       "works_count": 18,
-      "cited_by_count": 250
+      "cited_by_count": 251
     },
     {
-      "openalex_id": "A5090415131",
-      "name": "Pablo Ares",
-      "institution": "Universidad Autónoma de Madrid",
-      "recommendation_score": 21.0,
+      "openalex_id": "A5011032680",
+      "name": "Mathieu Lizée",
+      "institution": "Centre National de la Recherche Scientifique",
+      "recommendation_score": 22.0,
       "seed_connections": 2,
       "seed_names": [
-        "Andre K. Geim",
-        "Laura Fumagalli"
+        "Lydéric Bocquet",
+        "Qian Yang"
       ],
       "groups": [
-        "2D",
-        "Confined water"
+        "Confined water",
+        "Nanofluidics"
       ],
-      "coauthored_relevant_works": 2,
+      "coauthored_relevant_works": 4,
       "recent_relevant_works": 3,
-      "first_publication_year_signal": 2008,
-      "early_career_signal": false,
-      "emerging_topic_signal": true,
+      "first_publication_year_signal": 2022,
+      "early_career_signal": true,
+      "emerging_topic_signal": false,
       "recent_topic_rate_per_year": 1.5,
-      "prior_topic_rate_per_year": 0.33,
+      "prior_topic_rate_per_year": 1.0,
       "top_keywords": [
-        "confined water",
-        "nanoconfined water",
-        "hydrogen bond",
-        "atomic force microscopy",
+        "nanofluidic",
+        "ion transport",
         "AFM"
       ],
       "reasons": [
-        "2 topic-relevant coauthored work(s) with seed researchers",
+        "4 topic-relevant coauthored work(s) with seed researchers",
         "connected to 2 seed researchers",
         "bridges 2 configured groups",
         "3 relevant work(s) in the recent analysis window",
-        "recent topic-publication rate is at least twice the earlier-window rate",
-        "matched topics: confined water, nanoconfined water, hydrogen bond, atomic force microscopy, AFM"
+        "matched topics: nanofluidic, ion transport, AFM"
       ],
       "evidence_works": [
         {
-          "title": "In-plane dielectric constant and conductivity of confined water",
-          "date": "2025-10-15",
-          "score": 7
+          "title": "Architecting mechanosensitive nanofluidic transport in graphite nanoslits",
+          "date": "2026-05-01",
+          "score": 2
         },
         {
-          "title": "In-plane dielectric constant and conductivity of confined water",
-          "date": "2025-10-15",
-          "score": 7
-        }
-      ],
-      "works_count": 101,
-      "cited_by_count": 5616
-    },
-    {
-      "openalex_id": "A5042727456",
-      "name": "Ali Esfandiar",
-      "institution": "Sharif University of Technology",
-      "recommendation_score": 21.0,
-      "seed_connections": 2,
-      "seed_names": [
-        "Andre K. Geim",
-        "Laura Fumagalli"
-      ],
-      "groups": [
-        "2D",
-        "Confined water"
-      ],
-      "coauthored_relevant_works": 2,
-      "recent_relevant_works": 2,
-      "first_publication_year_signal": 2010,
-      "early_career_signal": false,
-      "emerging_topic_signal": true,
-      "recent_topic_rate_per_year": 1.0,
-      "prior_topic_rate_per_year": 0.0,
-      "top_keywords": [
-        "hydrogen bond",
-        "confined water",
-        "nanoconfined water",
-        "interfacial water",
-        "nanofluidic",
-        "atomic force microscopy",
-        "AFM"
-      ],
-      "reasons": [
-        "2 topic-relevant coauthored work(s) with seed researchers",
-        "connected to 2 seed researchers",
-        "bridges 2 configured groups",
-        "2 relevant work(s) in the recent analysis window",
-        "recent topic-publication rate is at least twice the earlier-window rate",
-        "matched topics: hydrogen bond, confined water, nanoconfined water, interfacial water, nanofluidic"
-      ],
-      "evidence_works": [
-        {
-          "title": "In-plane dielectric constant and conductivity of confined water",
-          "date": "2025-10-15",
-          "score": 7
+          "title": "Architecting mechanosensitive nanofluidic transport in graphite nanoslits",
+          "date": "2026-07-29",
+          "score": 2
         },
         {
-          "title": "In-plane dielectric constant and conductivity of confined water",
-          "date": "2025-10-15",
-          "score": 7
-        }
-      ],
-      "works_count": 88,
-      "cited_by_count": 6993
-    },
-    {
-      "openalex_id": "A5003106491",
-      "name": "Giorgio Ferrari",
-      "institution": "Politecnico di Milano",
-      "recommendation_score": 21.0,
-      "seed_connections": 2,
-      "seed_names": [
-        "Andre K. Geim",
-        "Laura Fumagalli"
-      ],
-      "groups": [
-        "2D",
-        "Confined water"
-      ],
-      "coauthored_relevant_works": 2,
-      "recent_relevant_works": 2,
-      "first_publication_year_signal": 1976,
-      "early_career_signal": false,
-      "emerging_topic_signal": true,
-      "recent_topic_rate_per_year": 1.0,
-      "prior_topic_rate_per_year": 0.33,
-      "top_keywords": [
-        "confined water",
-        "nanoconfined water",
-        "hydrogen bond",
-        "atomic force microscopy",
-        "AFM",
-        "clay mineral"
-      ],
-      "reasons": [
-        "2 topic-relevant coauthored work(s) with seed researchers",
-        "connected to 2 seed researchers",
-        "bridges 2 configured groups",
-        "2 relevant work(s) in the recent analysis window",
-        "recent topic-publication rate is at least twice the earlier-window rate",
-        "matched topics: confined water, nanoconfined water, hydrogen bond, atomic force microscopy, AFM"
-      ],
-      "evidence_works": [
-        {
-          "title": "In-plane dielectric constant and conductivity of confined water",
-          "date": "2025-10-15",
-          "score": 7
+          "title": "Architecting mechanosensitive nanofluidic transport in graphite nanoslits",
+          "date": "2026-05-01",
+          "score": 2
         },
         {
-          "title": "In-plane dielectric constant and conductivity of confined water",
-          "date": "2025-10-15",
-          "score": 7
+          "title": "Multiple ionic memories in asymmetric nanochannels revealed by mem-spectrometry",
+          "date": "2025-06-01",
+          "score": 2
         }
       ],
-      "works_count": 461,
-      "cited_by_count": 7688
+      "works_count": 29,
+      "cited_by_count": 88
     },
     {
       "openalex_id": "A5075572466",
@@ -1184,64 +1250,6 @@
       ],
       "works_count": 32,
       "cited_by_count": 254
-    },
-    {
-      "openalex_id": "A5135247847",
-      "name": "Zhijia Zhang",
-      "institution": "Unknown",
-      "recommendation_score": 19.0,
-      "seed_connections": 2,
-      "seed_names": [
-        "Lydéric Bocquet",
-        "Qian Yang"
-      ],
-      "groups": [
-        "Confined water",
-        "Nanofluidics"
-      ],
-      "coauthored_relevant_works": 4,
-      "recent_relevant_works": 2,
-      "first_publication_year_signal": 2026,
-      "early_career_signal": true,
-      "emerging_topic_signal": true,
-      "recent_topic_rate_per_year": 1.0,
-      "prior_topic_rate_per_year": 0.0,
-      "top_keywords": [
-        "nanofluidic",
-        "ion transport"
-      ],
-      "reasons": [
-        "4 topic-relevant coauthored work(s) with seed researchers",
-        "connected to 2 seed researchers",
-        "bridges 2 configured groups",
-        "2 relevant work(s) in the recent analysis window",
-        "recent topic-publication rate is at least twice the earlier-window rate",
-        "matched topics: nanofluidic, ion transport"
-      ],
-      "evidence_works": [
-        {
-          "title": "Architecting mechanosensitive nanofluidic transport in graphite nanoslits",
-          "date": "2026-05-01",
-          "score": 2
-        },
-        {
-          "title": "Architecting mechanosensitive nanofluidic transport in graphite nanoslits",
-          "date": "2026-05-01",
-          "score": 2
-        },
-        {
-          "title": "Architecting mechanosensitive nanofluidic transport in graphite nanoslits",
-          "date": "2026-05-01",
-          "score": 2
-        },
-        {
-          "title": "Architecting mechanosensitive nanofluidic transport in graphite nanoslits",
-          "date": "2026-05-01",
-          "score": 2
-        }
-      ],
-      "works_count": 2,
-      "cited_by_count": 1
     }
   ],
   "groups": {
@@ -1250,7 +1258,13 @@
         "group_1": "Confined water",
         "group_2": "Nanofluidics",
         "topic_jaccard": 0.419,
-        "relevant_seed_coauthored_works": 8
+        "relevant_seed_coauthored_works": 6
+      },
+      {
+        "group_1": "Interfacial water",
+        "group_2": "Nanofluidics",
+        "topic_jaccard": 0.179,
+        "relevant_seed_coauthored_works": 6
       },
       {
         "group_1": "Confined water",
@@ -1259,10 +1273,10 @@
         "relevant_seed_coauthored_works": 6
       },
       {
-        "group_1": "Interfacial water",
-        "group_2": "Nanofluidics",
-        "topic_jaccard": 0.179,
-        "relevant_seed_coauthored_works": 5
+        "group_1": "Interfacial spectroscopy",
+        "group_2": "Interfacial water",
+        "topic_jaccard": 0.182,
+        "relevant_seed_coauthored_works": 4
       },
       {
         "group_1": "2D",
@@ -1272,20 +1286,14 @@
       },
       {
         "group_1": "Interfacial spectroscopy",
-        "group_2": "Interfacial water",
-        "topic_jaccard": 0.182,
+        "group_2": "Nanofluidics",
+        "topic_jaccard": 0.111,
         "relevant_seed_coauthored_works": 3
       },
       {
         "group_1": "Confined water",
         "group_2": "Interfacial spectroscopy",
         "topic_jaccard": 0.143,
-        "relevant_seed_coauthored_works": 2
-      },
-      {
-        "group_1": "Interfacial spectroscopy",
-        "group_2": "Nanofluidics",
-        "topic_jaccard": 0.111,
         "relevant_seed_coauthored_works": 2
       }
     ],
