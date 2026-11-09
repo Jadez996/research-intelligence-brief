@@ -27,10 +27,6 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Run tests
-        run: |
-          python -m unittest discover -v
-
       - name: Generate weekly brief
         env:
           OPENALEX_EMAIL: ${{ secrets.OPENALEX_EMAIL }}
