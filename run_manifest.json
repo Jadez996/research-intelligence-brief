@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-11-09T12:30:54.670320+00:00",
+  "status": "ok",
+  "complete": true,
+  "dry_run": false,
+  "search_routes": {
+    "seed": {
+      "attempted": 23,
+      "succeeded": 23,
+      "failed": 0
+    },
+    "topic": {
+      "attempted": 4,
+      "succeeded": 4,
+      "failed": 0
+    },
+    "radar": {
+      "attempted": 1,
+      "succeeded": 1,
+      "failed": 0
+    }
+  },
+  "successful_search_routes": [
+    "seed",
+    "topic",
+    "radar"
+  ],
+  "failed_search_routes": [],
+  "openalex": {
+    "requests": 52,
+    "by_route": {
+      "seed": 23,
+      "topic": 4,
+      "radar": 25
+    },
+    "failed": 0,
+    "failed_by_route": {},
+    "retries": 0,
+    "cost_usd": 0.0088,
+    "credits": 88,
+    "remaining_usd": 0.0912,
+    "api_key_present": false
+  },
+  "llm_calls": 0,
+  "paid_api_calls": 0,
+  "state": {
+    "dry_run": false,
+    "updated": true,
+    "planned": true,
+    "path": "seen_works.json",
+    "qualifying_ids": 139,
+    "error": null
+  },
+  "counts": {
+    "papers": 129,
+    "reported_weekly": 100,
+    "reported_issue": 13,
+    "researcher_candidates": 868,
+    "researcher_recommended": 18,
+    "researcher_watch": 850,
+    "researcher_outside_network": 769,
+    "researcher_reappearing": 3,
+    "researcher_emerging_activity": 14
+  },
+  "outputs": {
+    "weekly_papers_json": "weekly_papers.json",
+    "weekly_papers_csv": "weekly_papers.csv",
+    "weekly_brief": "weekly_brief.md",
+    "issue_brief": "issue_brief.md",
+    "researcher_radar_json": "researcher_radar.json",
+    "researcher_radar_markdown": "researcher_radar.md"
+  },
+  "warnings": []
+}

@@ -244,5 +244,470 @@
       "score": 25.5,
       "recent_relevant_works": 9
     }
+  ],
+  "A5019837130": [
+    {
+      "date": "2026-11-09",
+      "score": 20.0,
+      "recent_relevant_works": 8,
+      "recent_relevant_papers": 8,
+      "relevant_papers": 8,
+      "status": "RECOMMENDED",
+      "category": "RECOMMENDED",
+      "routes": [
+        "literature",
+        "seed",
+        "topic"
+      ],
+      "outside_network": false,
+      "reappearing": false,
+      "emerging_activity": true,
+      "appearances": 1,
+      "weeks_seen": 1,
+      "consecutive_weeks": 1,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-09"
+    }
+  ],
+  "A5100398302": [
+    {
+      "date": "2026-11-09",
+      "score": 20.0,
+      "recent_relevant_works": 7,
+      "recent_relevant_papers": 7,
+      "relevant_papers": 8,
+      "status": "RECOMMENDED",
+      "category": "RECOMMENDED",
+      "routes": [
+        "literature",
+        "topic"
+      ],
+      "outside_network": true,
+      "reappearing": false,
+      "emerging_activity": true,
+      "appearances": 1,
+      "weeks_seen": 1,
+      "consecutive_weeks": 1,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-09"
+    }
+  ],
+  "A5052222850": [
+    {
+      "date": "2026-11-09",
+      "score": 20.0,
+      "recent_relevant_works": 5,
+      "recent_relevant_papers": 5,
+      "relevant_papers": 6,
+      "status": "RECOMMENDED",
+      "category": "RECOMMENDED",
+      "routes": [
+        "literature",
+        "topic"
+      ],
+      "outside_network": true,
+      "reappearing": false,
+      "emerging_activity": true,
+      "appearances": 1,
+      "weeks_seen": 1,
+      "consecutive_weeks": 1,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-09"
+    }
+  ],
+  "A5009911063": [
+    {
+      "date": "2026-11-09",
+      "score": 19.5,
+      "recent_relevant_works": 10,
+      "recent_relevant_papers": 10,
+      "relevant_papers": 16,
+      "status": "RECOMMENDED",
+      "category": "RECOMMENDED",
+      "routes": [
+        "literature",
+        "seed",
+        "topic"
+      ],
+      "outside_network": false,
+      "reappearing": false,
+      "emerging_activity": true,
+      "appearances": 1,
+      "weeks_seen": 1,
+      "consecutive_weeks": 1,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-09"
+    }
+  ],
+  "A5036599690": [
+    {
+      "date": "2026-11-09",
+      "score": 19.5,
+      "recent_relevant_works": 5,
+      "recent_relevant_papers": 5,
+      "relevant_papers": 10,
+      "status": "RECOMMENDED",
+      "category": "RECOMMENDED",
+      "routes": [
+        "literature",
+        "topic"
+      ],
+      "outside_network": true,
+      "reappearing": false,
+      "emerging_activity": true,
+      "appearances": 1,
+      "weeks_seen": 1,
+      "consecutive_weeks": 1,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-09"
+    }
+  ],
+  "A5101725205": [
+    {
+      "date": "2026-11-09",
+      "score": 19.5,
+      "recent_relevant_works": 3,
+      "recent_relevant_papers": 3,
+      "relevant_papers": 6,
+      "status": "RECOMMENDED",
+      "category": "RECOMMENDED",
+      "routes": [
+        "literature",
+        "topic"
+      ],
+      "outside_network": true,
+      "reappearing": false,
+      "emerging_activity": true,
+      "appearances": 1,
+      "weeks_seen": 1,
+      "consecutive_weeks": 1,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-09"
+    }
+  ],
+  "A5068676360": [
+    {
+      "date": "2026-11-09",
+      "score": 19.5,
+      "recent_relevant_works": 3,
+      "recent_relevant_papers": 3,
+      "relevant_papers": 5,
+      "status": "RECOMMENDED",
+      "category": "RECOMMENDED",
+      "routes": [
+        "literature",
+        "topic"
+      ],
+      "outside_network": true,
+      "reappearing": false,
+      "emerging_activity": true,
+      "appearances": 1,
+      "weeks_seen": 1,
+      "consecutive_weeks": 1,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-09"
+    }
+  ],
+  "A5006222293": [
+    {
+      "date": "2026-11-09",
+      "score": 19.0,
+      "recent_relevant_works": 8,
+      "recent_relevant_papers": 8,
+      "relevant_papers": 17,
+      "status": "RECOMMENDED",
+      "category": "RECOMMENDED",
+      "routes": [
+        "literature",
+        "seed",
+        "topic"
+      ],
+      "outside_network": false,
+      "reappearing": false,
+      "emerging_activity": false,
+      "appearances": 1,
+      "weeks_seen": 1,
+      "consecutive_weeks": 1,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-09"
+    }
+  ],
+  "A5012937709": [
+    {
+      "date": "2026-11-09",
+      "score": 18.0,
+      "recent_relevant_works": 7,
+      "recent_relevant_papers": 7,
+      "relevant_papers": 26,
+      "status": "RECOMMENDED",
+      "category": "RECOMMENDED",
+      "routes": [
+        "literature",
+        "seed",
+        "topic"
+      ],
+      "outside_network": false,
+      "reappearing": false,
+      "emerging_activity": false,
+      "appearances": 1,
+      "weeks_seen": 1,
+      "consecutive_weeks": 1,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-09"
+    }
+  ],
+  "A5034083940": [
+    {
+      "date": "2026-11-09",
+      "score": 18.0,
+      "recent_relevant_works": 5,
+      "recent_relevant_papers": 5,
+      "relevant_papers": 11,
+      "status": "RECOMMENDED",
+      "category": "RECOMMENDED",
+      "routes": [
+        "literature",
+        "seed",
+        "topic"
+      ],
+      "outside_network": false,
+      "reappearing": false,
+      "emerging_activity": false,
+      "appearances": 1,
+      "weeks_seen": 1,
+      "consecutive_weeks": 1,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-09"
+    }
+  ],
+  "A5114201464": [
+    {
+      "date": "2026-11-09",
+      "score": 17.5,
+      "recent_relevant_works": 3,
+      "recent_relevant_papers": 3,
+      "relevant_papers": 4,
+      "status": "RECOMMENDED",
+      "category": "RECOMMENDED",
+      "routes": [
+        "literature",
+        "topic"
+      ],
+      "outside_network": true,
+      "reappearing": false,
+      "emerging_activity": true,
+      "appearances": 1,
+      "weeks_seen": 1,
+      "consecutive_weeks": 1,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-09"
+    }
+  ],
+  "A5079956770": [
+    {
+      "date": "2026-11-09",
+      "score": 16.8,
+      "recent_relevant_works": 4,
+      "recent_relevant_papers": 4,
+      "relevant_papers": 4,
+      "status": "RECOMMENDED",
+      "category": "RECOMMENDED",
+      "routes": [
+        "literature",
+        "topic"
+      ],
+      "outside_network": true,
+      "reappearing": false,
+      "emerging_activity": true,
+      "appearances": 1,
+      "weeks_seen": 1,
+      "consecutive_weeks": 1,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-09"
+    }
+  ],
+  "A5054602608": [
+    {
+      "date": "2026-11-09",
+      "score": 16.5,
+      "recent_relevant_works": 2,
+      "recent_relevant_papers": 2,
+      "relevant_papers": 4,
+      "status": "RECOMMENDED",
+      "category": "RECOMMENDED",
+      "routes": [
+        "literature",
+        "topic"
+      ],
+      "outside_network": true,
+      "reappearing": false,
+      "emerging_activity": true,
+      "appearances": 1,
+      "weeks_seen": 1,
+      "consecutive_weeks": 1,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-09"
+    }
+  ],
+  "A5063443886": [
+    {
+      "date": "2026-11-09",
+      "score": 16.5,
+      "recent_relevant_works": 2,
+      "recent_relevant_papers": 2,
+      "relevant_papers": 4,
+      "status": "RECOMMENDED",
+      "category": "RECOMMENDED",
+      "routes": [
+        "literature",
+        "topic"
+      ],
+      "outside_network": true,
+      "reappearing": false,
+      "emerging_activity": true,
+      "appearances": 1,
+      "weeks_seen": 1,
+      "consecutive_weeks": 1,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-09"
+    }
+  ],
+  "A5035677360": [
+    {
+      "date": "2026-11-09",
+      "score": 14.0,
+      "recent_relevant_works": 2,
+      "recent_relevant_papers": 2,
+      "relevant_papers": 3,
+      "status": "RECOMMENDED",
+      "category": "RECOMMENDED",
+      "routes": [
+        "literature",
+        "seed",
+        "topic"
+      ],
+      "outside_network": false,
+      "reappearing": false,
+      "emerging_activity": true,
+      "appearances": 1,
+      "weeks_seen": 1,
+      "consecutive_weeks": 1,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-09"
+    }
+  ],
+  "A5104827707": [
+    {
+      "date": "2026-11-09",
+      "score": 12.5,
+      "recent_relevant_works": 2,
+      "recent_relevant_papers": 2,
+      "relevant_papers": 2,
+      "status": "RECOMMENDED",
+      "category": "RECOMMENDED",
+      "routes": [
+        "literature",
+        "topic"
+      ],
+      "outside_network": true,
+      "reappearing": false,
+      "emerging_activity": true,
+      "appearances": 1,
+      "weeks_seen": 1,
+      "consecutive_weeks": 1,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-09"
+    }
+  ],
+  "A5013646418": [
+    {
+      "date": "2026-11-09",
+      "score": 12.5,
+      "recent_relevant_works": 2,
+      "recent_relevant_papers": 2,
+      "relevant_papers": 2,
+      "status": "RECOMMENDED",
+      "category": "RECOMMENDED",
+      "routes": [
+        "literature",
+        "topic"
+      ],
+      "outside_network": true,
+      "reappearing": false,
+      "emerging_activity": true,
+      "appearances": 1,
+      "weeks_seen": 1,
+      "consecutive_weeks": 1,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-09"
+    }
+  ],
+  "A5049633400": [
+    {
+      "date": "2026-11-09",
+      "score": 10.0,
+      "recent_relevant_works": 1,
+      "recent_relevant_papers": 1,
+      "relevant_papers": 2,
+      "status": "RECOMMENDED",
+      "category": "RECOMMENDED",
+      "routes": [
+        "literature",
+        "seed",
+        "topic"
+      ],
+      "outside_network": false,
+      "reappearing": false,
+      "emerging_activity": false,
+      "appearances": 1,
+      "weeks_seen": 1,
+      "consecutive_weeks": 1,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-09"
+    }
+  ],
+  "A5024667395": [
+    {
+      "date": "2026-11-09",
+      "score": 8.0,
+      "recent_relevant_works": 1,
+      "recent_relevant_papers": 1,
+      "relevant_papers": 1,
+      "status": "WATCH",
+      "category": "WATCH",
+      "routes": [
+        "topic"
+      ],
+      "outside_network": true,
+      "reappearing": false,
+      "emerging_activity": false,
+      "appearances": 1,
+      "weeks_seen": 1,
+      "consecutive_weeks": 1,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-09"
+    }
+  ],
+  "A5083504111": [
+    {
+      "date": "2026-11-09",
+      "score": 8.0,
+      "recent_relevant_works": 1,
+      "recent_relevant_papers": 1,
+      "relevant_papers": 1,
+      "status": "WATCH",
+      "category": "WATCH",
+      "routes": [
+        "topic"
+      ],
+      "outside_network": true,
+      "reappearing": false,
+      "emerging_activity": false,
+      "appearances": 1,
+      "weeks_seen": 1,
+      "consecutive_weeks": 1,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-09"
+    }
   ]
 }

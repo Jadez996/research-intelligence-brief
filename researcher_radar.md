@@ -1,409 +1,267 @@
 # Researcher Radar
 
-**Generated:** 2026-11-01
+**Generated:** 2026-11-09
 
-> Recommendations require topic-relevant publication evidence. Coauthorship alone is not sufficient. The early-career flag is a publication-history signal, not a claim about age or career stage.
+> Recommendations require publication/topic evidence. Coauthorship alone is not sufficient. Categories are discovery aids, not scientific-quality or career-stage judgments.
+
+## Summary
+
+- Candidates evaluated: 868
+- RECOMMENDED: 18
+- WATCH: 850
+- OUTSIDE_NETWORK: 769
+- REAPPEARING: 3
+- EMERGING_ACTIVITY: 14
+- Featured in this report: 20
 
 ## Recommended researchers
 
-### 1. Xavier R. Advincula
+### 1. Margaret L. Berrens
 
-- **OpenAlex:** https://openalex.org/A5093427169
-- **Institution:** University of Cambridge
-- **Recommendation score:** 39.5
-- **Connected seeds:** Angelos Michaelides, Laura Fumagalli, Lydéric Bocquet, Nikita Kavokine
-- **Configured groups:** Confined water, Interfacial water, Nanofluidics
-- **Recent relevant works:** 12
-- **Emerging-topic signal:** Yes (recent rate 6.0/year; earlier rate 1.33/year)
-- **Early-career publication signal:** Yes (first-year signal: 2023)
-- **Why recommended:** 10 topic-relevant coauthored work(s) with seed researchers; connected to 4 seed researchers; bridges 3 configured groups; 12 relevant work(s) in the recent analysis window; recent topic-publication rate is at least twice the earlier-window rate; matched topics: confined water, interfacial water, hydrogen bond, nanofluidic, nanoconfined water
-
-**Evidence works:**
-
-- 2026-06-24 — How reactive is water at the nanoscale and how to control it?
-- 2026-04-10 — Nanoconfined superionic water is a molecular superionic
-- 2026-03-27 — Research data supporting "Nanoconfined superionic water is a molecular superionic"
-- 2026-03-19 — Breaking the Air–Water Paradigm: Ion Behavior at Hydrophobic Solid–Water Interfaces
-- 2026-01-29 — Stacking-Controlled Reactivity and Friction of Water in Atomic-Scale hBN Channels from First Principles
-
-### 2. Christoph Schran
-
-- **OpenAlex:** https://openalex.org/A5026599330
-- **Institution:** University of Cambridge
-- **Recommendation score:** 36.5
-- **Connected seeds:** Angelos Michaelides, Laura Fumagalli, Lydéric Bocquet
-- **Configured groups:** Confined water, Interfacial water, Nanofluidics
-- **Recent relevant works:** 11
-- **Emerging-topic signal:** Yes (recent rate 5.5/year; earlier rate 1.67/year)
-- **Early-career publication signal:** No/insufficient evidence (first-year signal: 2016)
-- **Why recommended:** 8 topic-relevant coauthored work(s) with seed researchers; connected to 3 seed researchers; bridges 3 configured groups; 11 relevant work(s) in the recent analysis window; recent topic-publication rate is at least twice the earlier-window rate; matched topics: hydrogen bond, confined water, interfacial water, nanoconfined water, nanofluidic
+- **OpenAlex:** https://openalex.org/A5019837130
+- **Institution:** Lawrence Livermore National Laboratory
+- **Status:** RECOMMENDED
+- **Signals:** EMERGING_ACTIVITY
+- **Routes:** recurring-literature + seed-author + topic-first
+- **Evidence:** 8 relevant paper(s), 8 recent; 6 seed connection(s)
+- **Matched keywords:** nanochannel, nanopore, interfacial water, nanofluidic, hydrogen bond, hexagonal boron nitride
+- **History:** first seen 2026-11-09; last seen 2026-11-09; 1 appearance(s), 1 week(s), 1 consecutive
+- **Emerging activity:** 8 recent paper(s) with no earlier relevant papers in the analysis window
+- **Why:** routes: recurring-literature + seed-author + topic-first; 8 relevant paper(s); 8 in the recent window; matched keywords: nanochannel, nanopore, interfacial water, nanofluidic, hydrogen bond, hexagonal boron nitride; matched queries: interfacial water; seed coauthorship evidence: Aleksandr Noy, Angelos Michaelides, Boya Radha, Lydéric Bocquet; emerging recent activity: 8 recent paper(s) with no earlier relevant papers in the analysis window.
 
 **Evidence works:**
 
-- 2026-06-24 — How reactive is water at the nanoscale and how to control it?
-- 2026-04-10 — Nanoconfined superionic water is a molecular superionic
-- 2026-03-27 — Research data supporting "Nanoconfined superionic water is a molecular superionic"
-- 2026-03-19 — Breaking the Air–Water Paradigm: Ion Behavior at Hydrophobic Solid–Water Interfaces
-- 2026-01-01 — When is nanoconfined water different from interfacial water?
+- 2026-10-31 — Balance between Geometric Confinement and Hydrogen Bond Strength Controls Water Dynamics in 2D hBN Nanopores [topic]
+- 2026-06-12 — Electrostatic Gating of Ionic Conductance through Heterogeneous van der Waals Nanopores [literature]
+- 2026-05-19 — How Silica Surface Chemistry Modulates Interfacial Water: Insights from Machine Learning Molecular Dynamics [literature]
+- 2026-01-01 — 2D nanoconfinement distorts the solvation structure of hydroxide but not of hydronium [literature]
+- 2026-01-01 — Diameter-dependent multiple proton jumps dictate hydronium and hydroxide transport in carbon nanotubes [literature, seed]
 
-### 3. Venkat Kapil
+### 2. Kuo Liu
 
-- **OpenAlex:** https://openalex.org/A5009821984
-- **Institution:** University of Milan
-- **Recommendation score:** 36.5
-- **Connected seeds:** Angelos Michaelides, Laura Fumagalli, Nikita Kavokine
-- **Configured groups:** Confined water, Interfacial water, Nanofluidics
-- **Recent relevant works:** 8
-- **Emerging-topic signal:** Yes (recent rate 4.0/year; earlier rate 2.0/year)
-- **Early-career publication signal:** No/insufficient evidence (first-year signal: 2015)
-- **Why recommended:** 5 topic-relevant coauthored work(s) with seed researchers; connected to 3 seed researchers; bridges 3 configured groups; 8 relevant work(s) in the recent analysis window; recent topic-publication rate is at least twice the earlier-window rate; matched topics: confined water, nanoconfined water, hydrogen bond, dielectric response, interfacial water
-
-**Evidence works:**
-
-- 2026-06-19 — Controlling the phase behaviour of ultraconfined water via bilayer graphene stacking
-- 2026-04-10 — Nanoconfined superionic water is a molecular superionic
-- 2026-03-27 — Research data supporting "Nanoconfined superionic water is a molecular superionic"
-- 2024-01-01 — Dynamics and nano-rheology of interfacial water: general discussion
-- 2024-01-01 — Dynamics and nano-rheology of interfacial water: general discussion
-
-### 4. Marie‐Laure Bocquet
-
-- **OpenAlex:** https://openalex.org/A5027388818
-- **Institution:** Université Paris Cité
-- **Recommendation score:** 36.5
-- **Connected seeds:** Angelos Michaelides, Laura Fumagalli, Lydéric Bocquet
-- **Configured groups:** Confined water, Interfacial water, Nanofluidics
-- **Recent relevant works:** 5
-- **Emerging-topic signal:** No (recent rate 2.5/year; earlier rate 1.33/year)
-- **Early-career publication signal:** No/insufficient evidence (first-year signal: 1992)
-- **Why recommended:** 5 topic-relevant coauthored work(s) with seed researchers; connected to 3 seed researchers; bridges 3 configured groups; 5 relevant work(s) in the recent analysis window; matched topics: interfacial water, nanofluidic, confined water, dielectric response, hydrogen bond
+- **OpenAlex:** https://openalex.org/A5100398302
+- **Institution:** Chinese Academy of Sciences
+- **Status:** RECOMMENDED
+- **Signals:** OUTSIDE_NETWORK, EMERGING_ACTIVITY
+- **Routes:** recurring-literature + topic-first
+- **Evidence:** 8 relevant paper(s), 7 recent; 0 seed connection(s)
+- **Matched keywords:** confined water, nanochannel, nanopore, TiO2, titanium dioxide, surface hydration
+- **History:** first seen 2026-11-09; last seen 2026-11-09; 1 appearance(s), 1 week(s), 1 consecutive
+- **Emerging activity:** recent rate 3.50/year versus earlier 0.33/year
+- **Why:** routes: recurring-literature + topic-first; 8 relevant paper(s); 7 in the recent window; matched keywords: confined water, nanochannel, nanopore, TiO2, titanium dioxide, surface hydration; matched queries: confined water, interfacial water; no seed-author connection observed; emerging recent activity: recent rate 3.50/year versus earlier 0.33/year.
 
 **Evidence works:**
 
-- 2026-10-27 — Water at the molecular frontier
-- 2026-01-29 — Stacking-Controlled Reactivity and Friction of Water in Atomic-Scale hBN Channels from First Principles
-- 2026-10-27 — Water at the molecular frontier
-- 2026-01-29 — Stacking-Controlled Reactivity and Friction of Water in Atomic-Scale hBN Channels from First Principles
-- 2025-08-06 — Spontaneous Surface Charging and Janus Nature of the Hexagonal Boron Nitride–Water Interface
+- 2026-10-27 — Non‐Precious Metal Catalysts for Acidic Oxygen Evolution in Proton Exchange Membrane Water Electrolysis: Degradation Challenges and Regulation Strategies [topic]
+- 2026-10-05 — Outside Back Cover: Space‐Confined Water Isotope Transport in Conductive MOF Thin Film [topic]
+- 2026-10-05 — Outside Back Cover: Space‐Confined Water Isotope Transport in Conductive MOF Thin Film [literature]
+- 2026-09-01 — Space‐Confined Water Isotope Transport in Conductive MOF Thin Film [literature]
+- 2026-09-01 — Space‐Confined Water Isotope Transport in Conductive MOF Thin Film [literature]
 
-### 5. Stephen James Cox
+### 3. Tianfei Chu
 
-- **OpenAlex:** https://openalex.org/A5058519201
-- **Institution:** Durham University
-- **Recommendation score:** 36.5
-- **Connected seeds:** Angelos Michaelides, Laura Fumagalli, Nikita Kavokine
-- **Configured groups:** Confined water, Interfacial water, Nanofluidics
-- **Recent relevant works:** 5
-- **Emerging-topic signal:** No (recent rate 2.5/year; earlier rate 1.67/year)
-- **Early-career publication signal:** No/insufficient evidence (first-year signal: 2010)
-- **Why recommended:** 5 topic-relevant coauthored work(s) with seed researchers; connected to 3 seed researchers; bridges 3 configured groups; 5 relevant work(s) in the recent analysis window; matched topics: confined water, interfacial water, nanoconfined water, hydrogen bond, dielectric response
-
-**Evidence works:**
-
-- 2026-04-10 — Nanoconfined superionic water is a molecular superionic
-- 2026-03-27 — Research data supporting "Nanoconfined superionic water is a molecular superionic"
-- 2024-01-01 — Dynamics and nano-rheology of interfacial water: general discussion
-- 2025-01-02 — Momentum tunnelling between nanoscale liquid flows
-- 2024-01-01 — Dynamics and nano-rheology of interfacial water: general discussion
-
-### 6. Yongkang Wang
-
-- **OpenAlex:** https://openalex.org/A5101457849
-- **Institution:** Max Planck Institute for Polymer Research
-- **Recommendation score:** 32.5
-- **Connected seeds:** Angelos Michaelides, Lydéric Bocquet, Mischa Bonn
-- **Configured groups:** Interfacial spectroscopy, Interfacial water, Nanofluidics
-- **Recent relevant works:** 6
-- **Emerging-topic signal:** No (recent rate 3.0/year; earlier rate 4.33/year)
-- **Early-career publication signal:** No/insufficient evidence (first-year signal: 2006)
-- **Why recommended:** 3 topic-relevant coauthored work(s) with seed researchers; connected to 3 seed researchers; bridges 3 configured groups; 6 relevant work(s) in the recent analysis window; matched topics: interfacial water, hydrogen bond, nanofluidic, atomic force microscopy, AFM
+- **OpenAlex:** https://openalex.org/A5052222850
+- **Institution:** Chinese Academy of Sciences
+- **Status:** RECOMMENDED
+- **Signals:** OUTSIDE_NETWORK, EMERGING_ACTIVITY
+- **Routes:** recurring-literature + topic-first
+- **Evidence:** 6 relevant paper(s), 5 recent; 0 seed connection(s)
+- **Matched keywords:** nanochannel, nanopore, confined water, surface hydration, interfacial water, graphene
+- **History:** first seen 2026-11-09; last seen 2026-11-09; 1 appearance(s), 1 week(s), 1 consecutive
+- **Emerging activity:** recent rate 2.50/year versus earlier 0.33/year
+- **Why:** routes: recurring-literature + topic-first; 6 relevant paper(s); 5 in the recent window; matched keywords: nanochannel, nanopore, confined water, surface hydration, interfacial water, graphene; matched queries: confined water, interfacial water; no seed-author connection observed; emerging recent activity: recent rate 2.50/year versus earlier 0.33/year.
 
 **Evidence works:**
 
-- 2026-03-19 — Breaking the Air–Water Paradigm: Ion Behavior at Hydrophobic Solid–Water Interfaces
-- 2026-09-14 — Visible light leaves evaporation and interfacial structure of neat water unchanged at the air–water interface
-- 2025-08-06 — Spontaneous Surface Charging and Janus Nature of the Hexagonal Boron Nitride–Water Interface
+- 2026-10-27 — Non‐Precious Metal Catalysts for Acidic Oxygen Evolution in Proton Exchange Membrane Water Electrolysis: Degradation Challenges and Regulation Strategies [topic]
+- 2026-10-05 — Outside Back Cover: Space‐Confined Water Isotope Transport in Conductive MOF Thin Film [topic]
+- 2026-10-05 — Outside Back Cover: Space‐Confined Water Isotope Transport in Conductive MOF Thin Film [literature]
+- 2026-09-01 — Space‐Confined Water Isotope Transport in Conductive MOF Thin Film [literature]
+- 2026-09-01 — Space‐Confined Water Isotope Transport in Conductive MOF Thin Film [literature]
 
-### 7. Yair E. Litman
+### 4. Marcos F. Calegari Andrade
 
-- **OpenAlex:** https://openalex.org/A5089096336
-- **Institution:** University of Cambridge
-- **Recommendation score:** 29.5
-- **Connected seeds:** Angelos Michaelides, Mischa Bonn
-- **Configured groups:** Interfacial spectroscopy, Interfacial water
-- **Recent relevant works:** 8
-- **Emerging-topic signal:** Yes (recent rate 4.0/year; earlier rate 0.67/year)
-- **Early-career publication signal:** No/insufficient evidence (first-year signal: 2012)
-- **Why recommended:** 4 topic-relevant coauthored work(s) with seed researchers; connected to 2 seed researchers; bridges 2 configured groups; 8 relevant work(s) in the recent analysis window; recent topic-publication rate is at least twice the earlier-window rate; matched topics: interfacial water, hydrogen bond, nanofluidic, electric double layer, confined water
-
-**Evidence works:**
-
-- 2026-06-24 — How reactive is water at the nanoscale and how to control it?
-- 2026-03-19 — Breaking the Air–Water Paradigm: Ion Behavior at Hydrophobic Solid–Water Interfaces
-- 2026-10-27 — Ultrafast Nonlinear Vibrational Spectroscopy of Aqueous Solutions at Surfaces and in Heterogeneous Environments
-- 2026-10-07 — Interfacial Water Responds Linearly to Charge yet Is Charge-Asymmetric
-
-### 8. Andre K. Geim
-
-- **OpenAlex:** https://openalex.org/A5058357018
-- **Institution:** University of Manchester
-- **Recommendation score:** 28.5
-- **Connected seeds:** Andre K. Geim, Irina V. Grigorieva, Laura Fumagalli
-- **Configured groups:** 2D, Confined water
-- **Recent relevant works:** 1
-- **Emerging-topic signal:** No (recent rate 0.5/year; earlier rate 3.0/year)
-- **Early-career publication signal:** No/insufficient evidence (first-year signal: 1981)
-- **Why recommended:** 5 topic-relevant coauthored work(s) with seed researchers; connected to 3 seed researchers; bridges 2 configured groups; 1 relevant work(s) in the recent analysis window; matched topics: confined water, hydrogen bond, interfacial water, ion transport, electric double layer
+- **OpenAlex:** https://openalex.org/A5009911063
+- **Institution:** University of California, Santa Cruz
+- **Status:** RECOMMENDED
+- **Signals:** EMERGING_ACTIVITY
+- **Routes:** recurring-literature + seed-author + topic-first
+- **Evidence:** 16 relevant paper(s), 10 recent; 2 seed connection(s)
+- **Matched keywords:** nanochannel, hydrogen bond, nanopore, interfacial water, water interface, proton transport
+- **History:** first seen 2026-11-09; last seen 2026-11-09; 1 appearance(s), 1 week(s), 1 consecutive
+- **Emerging activity:** recent rate 5.00/year versus earlier 2.00/year
+- **Why:** routes: recurring-literature + seed-author + topic-first; 16 relevant paper(s); 10 in the recent window; matched keywords: nanochannel, hydrogen bond, nanopore, interfacial water, water interface, proton transport; matched queries: interfacial water; seed coauthorship evidence: Aleksandr Noy, Narayana R. Aluru; emerging recent activity: recent rate 5.00/year versus earlier 2.00/year.
 
 **Evidence works:**
 
-- 2025-10-15 — In-plane dielectric constant and conductivity of confined water
-- 2022-01-20 — Reply to: Random interstratification in hydrated graphene oxide membranes and implications for seawater desalination
-- 2025-10-15 — In-plane dielectric constant and conductivity of confined water
-- 2023-12-04 — Origin of dielectric polarization suppression in confined water from first principles
-- 2022-11-25 — Understanding the anomalously low dielectric constant of confined water: an ab initio study
+- 2026-10-31 — Balance between Geometric Confinement and Hydrogen Bond Strength Controls Water Dynamics in 2D hBN Nanopores [topic]
+- 2026-05-19 — How Silica Surface Chemistry Modulates Interfacial Water: Insights from Machine Learning Molecular Dynamics [literature]
+- 2026-01-07 — Spectral Similarity Masks Structural Diversity at Hydrophobic Water Interfaces [literature]
+- 2026-01-01 — Diameter-dependent multiple proton jumps dictate hydronium and hydroxide transport in carbon nanotubes [literature, seed]
+- 2025-12-03 — Facet-dependent structure and dissociation of water at pristine IrO2/water interfaces [literature]
 
-### 9. Ankit Bhardwaj
+### 5. Wan‐Jian Yin
 
-- **OpenAlex:** https://openalex.org/A5051222883
-- **Institution:** University of Manchester
-- **Recommendation score:** 28.0
-- **Connected seeds:** Boya Radha, Narayana R. Aluru
-- **Configured groups:** Confined water, Nanofluidics
-- **Recent relevant works:** 4
-- **Emerging-topic signal:** Yes (recent rate 2.0/year; earlier rate 1.0/year)
-- **Early-career publication signal:** Yes (first-year signal: 2018)
-- **Why recommended:** 4 topic-relevant coauthored work(s) with seed researchers; connected to 2 seed researchers; bridges 2 configured groups; 4 relevant work(s) in the recent analysis window; recent topic-publication rate is at least twice the earlier-window rate; matched topics: ion transport, nanofluidic, confined water, clay mineral, nanoconfined water
-
-**Evidence works:**
-
-- 2026-08-26 — Multi‐Stimuli Responsive Angstrom‐Scale Two‐Dimensional Channels of Natural Layered Materials
-- 2026-07-31 — Two-dimensional clay channels for tunable nanofluidic memristor
-- 2026-07-30 — Observation of long-lived spin order in nanoconfined water
-- 2026-08-26 — Multi‐Stimuli Responsive Angstrom‐Scale Two‐Dimensional Channels of Natural Layered Materials
-
-### 10. Baptiste Coquinot
-
-- **OpenAlex:** https://openalex.org/A5004666527
-- **Institution:** Centre National de la Recherche Scientifique
-- **Recommendation score:** 28.0
-- **Connected seeds:** Lydéric Bocquet, Nikita Kavokine, Qian Yang
-- **Configured groups:** Confined water, Nanofluidics
-- **Recent relevant works:** 3
-- **Emerging-topic signal:** No (recent rate 1.5/year; earlier rate 1.0/year)
-- **Early-career publication signal:** Yes (first-year signal: 2019)
-- **Why recommended:** 4 topic-relevant coauthored work(s) with seed researchers; connected to 3 seed researchers; bridges 2 configured groups; 3 relevant work(s) in the recent analysis window; matched topics: nanofluidic, ion transport, confined water, dielectric response, AFM
+- **OpenAlex:** https://openalex.org/A5036599690
+- **Institution:** Soochow University
+- **Status:** RECOMMENDED
+- **Signals:** OUTSIDE_NETWORK, EMERGING_ACTIVITY
+- **Routes:** recurring-literature + topic-first
+- **Evidence:** 10 relevant paper(s), 5 recent; 0 seed connection(s)
+- **Matched keywords:** 2D materials, graphene, nanochannel, nanopore, nanofluidic, confined water
+- **History:** first seen 2026-11-09; last seen 2026-11-09; 1 appearance(s), 1 week(s), 1 consecutive
+- **Emerging activity:** recent rate 2.50/year versus earlier 1.67/year
+- **Why:** routes: recurring-literature + topic-first; 10 relevant paper(s); 5 in the recent window; matched keywords: 2D materials, graphene, nanochannel, nanopore, nanofluidic, confined water; matched queries: confined water; no seed-author connection observed; emerging recent activity: recent rate 2.50/year versus earlier 1.67/year.
 
 **Evidence works:**
 
-- 2026-05-01 — Architecting mechanosensitive nanofluidic transport in graphite nanoslits
-- 2026-07-29 — Architecting mechanosensitive nanofluidic transport in graphite nanoslits
-- 2026-05-01 — Architecting mechanosensitive nanofluidic transport in graphite nanoslits
-- 2025-01-02 — Momentum tunnelling between nanoscale liquid flows
+- 2026-10-24 — Selective Electronic Pre-Activation of OH Bonds in Extremely Confined Water [topic]
+- 2025-11-17 — Trace Oxygen‐Assisted Synthesis of High‐Quality Graphene with Improved Electrical Performance [literature]
+- 2025-09-05 — Machine-Learning Potential Molecular Dynamics Reveals the Critical Role of Flexibility in Solid–Liquid Nanofluidic Friction [literature]
+- 2024-11-26 — Interfacial Coupling Induced Discrete Orientation of Epitaxial Graphene on High‐Index Cu Substrates [literature]
+- 2024-11-25 — Carbon–Oxygen Radical Assisted Growth of Defect‐Free Graphene Films Using Low‐Temperature Chemical Vapor Deposition [literature]
 
-### 11. Ali Esfandiar
+### 6. Santoshkumar D. Bhat
 
-- **OpenAlex:** https://openalex.org/A5042727456
-- **Institution:** Sharif University of Technology
-- **Recommendation score:** 28.0
-- **Connected seeds:** Andre K. Geim, Laura Fumagalli, Lydéric Bocquet
-- **Configured groups:** 2D, Confined water, Nanofluidics
-- **Recent relevant works:** 2
-- **Emerging-topic signal:** Yes (recent rate 1.0/year; earlier rate 0.0/year)
-- **Early-career publication signal:** No/insufficient evidence (first-year signal: 2010)
-- **Why recommended:** 3 topic-relevant coauthored work(s) with seed researchers; connected to 3 seed researchers; bridges 3 configured groups; 2 relevant work(s) in the recent analysis window; recent topic-publication rate is at least twice the earlier-window rate; matched topics: hydrogen bond, confined water, nanoconfined water, interfacial water, nanofluidic
-
-**Evidence works:**
-
-- 2025-10-15 — In-plane dielectric constant and conductivity of confined water
-- 2025-10-15 — In-plane dielectric constant and conductivity of confined water
-- 2025-08-06 — Spontaneous Surface Charging and Janus Nature of the Hexagonal Boron Nitride–Water Interface
-
-### 12. Kara D. Fong
-
-- **OpenAlex:** https://openalex.org/A5079875975
-- **Institution:** California Institute of Technology
-- **Recommendation score:** 27.5
-- **Connected seeds:** Angelos Michaelides, Lydéric Bocquet
-- **Configured groups:** Interfacial water, Nanofluidics
-- **Recent relevant works:** 5
-- **Emerging-topic signal:** Yes (recent rate 2.5/year; earlier rate 0.0/year)
-- **Early-career publication signal:** No/insufficient evidence (first-year signal: 2014)
-- **Why recommended:** 3 topic-relevant coauthored work(s) with seed researchers; connected to 2 seed researchers; bridges 2 configured groups; 5 relevant work(s) in the recent analysis window; recent topic-publication rate is at least twice the earlier-window rate; matched topics: nanofluidic, interfacial water, hydrogen bond, confined water, nanoconfined water
+- **OpenAlex:** https://openalex.org/A5101725205
+- **Institution:** Academy of Scientific and Innovative Research
+- **Status:** RECOMMENDED
+- **Signals:** OUTSIDE_NETWORK, EMERGING_ACTIVITY
+- **Routes:** recurring-literature + topic-first
+- **Evidence:** 6 relevant paper(s), 3 recent; 0 seed connection(s)
+- **Matched keywords:** proton conductivity, proton transport, ionic transport, confined water, Grotthuss, hydrogen bond
+- **History:** first seen 2026-11-09; last seen 2026-11-09; 1 appearance(s), 1 week(s), 1 consecutive
+- **Emerging activity:** recent rate 1.50/year versus earlier 1.00/year
+- **Why:** routes: recurring-literature + topic-first; 6 relevant paper(s); 3 in the recent window; matched keywords: proton conductivity, proton transport, ionic transport, confined water, Grotthuss, hydrogen bond; matched queries: confined water; no seed-author connection observed; emerging recent activity: recent rate 1.50/year versus earlier 1.00/year.
 
 **Evidence works:**
 
-- 2026-06-24 — How reactive is water at the nanoscale and how to control it?
-- 2026-03-19 — Breaking the Air–Water Paradigm: Ion Behavior at Hydrophobic Solid–Water Interfaces
-- 2025-08-06 — Spontaneous Surface Charging and Janus Nature of the Hexagonal Boron Nitride–Water Interface
+- 2026-10-29 — High Proton Conduction in a Hydrogen-Bonded Co(II) Framework through Pendant Carboxylic Acid-Decorated 1D Channels [topic]
+- 2026-01-01 — Advances in Short‐Side‐Chain Perfluorosulfonic Acid Electrolytes for Proton Exchange Membrane Fuel Cells [literature]
+- 2025-02-17 — Short-Side-Chain Membranes with Stabilized Superacid on Graphitic Carbon Nitride for Polymer Electrolyte Fuel Cells under Low-Humidity Conditions [literature]
+- 2024-10-17 — Architecting side chain grafted poly (vinylidene fluoride) based graphene oxide composite polyelectrolyte membranes for hydrogen and direct methanol fuel cells [literature]
+- 2024-09-25 — Functionalized Ceria Nanoparticles Reinforced with Short Side Chain-Based Composite Membrane for Low-Humidity Hydrogen-Powered Fuel Cells [literature]
 
-### 13. Arsh S. Hazrah
+### 7. Maniprakundil Neeshma
 
-- **OpenAlex:** https://openalex.org/A5032544556
-- **Institution:** University of Alberta
-- **Recommendation score:** 27.5
-- **Connected seeds:** Lydéric Bocquet, Mischa Bonn
-- **Configured groups:** Interfacial spectroscopy, Nanofluidics
-- **Recent relevant works:** 5
-- **Emerging-topic signal:** Yes (recent rate 2.5/year; earlier rate 0.0/year)
-- **Early-career publication signal:** Yes (first-year signal: 2018)
-- **Why recommended:** 3 topic-relevant coauthored work(s) with seed researchers; connected to 2 seed researchers; bridges 2 configured groups; 5 relevant work(s) in the recent analysis window; recent topic-publication rate is at least twice the earlier-window rate; matched topics: interfacial water, hydrogen bond, hydration, electric double layer, nanofluidic
-
-**Evidence works:**
-
-- 2026-10-27 — Ultrafast Nonlinear Vibrational Spectroscopy of Aqueous Solutions at Surfaces and in Heterogeneous Environments
-- 2026-09-14 — Visible light leaves evaporation and interfacial structure of neat water unchanged at the air–water interface
-- 2025-08-06 — Spontaneous Surface Charging and Janus Nature of the Hexagonal Boron Nitride–Water Interface
-
-### 14. Simone Benaglia
-
-- **OpenAlex:** https://openalex.org/A5069715513
-- **Institution:** University of Manchester
-- **Recommendation score:** 27.0
-- **Connected seeds:** Andre K. Geim, Laura Fumagalli
-- **Configured groups:** 2D, Confined water
-- **Recent relevant works:** 2
-- **Emerging-topic signal:** No (recent rate 1.0/year; earlier rate 1.33/year)
-- **Early-career publication signal:** No/insufficient evidence (first-year signal: 2017)
-- **Why recommended:** 5 topic-relevant coauthored work(s) with seed researchers; connected to 2 seed researchers; bridges 2 configured groups; 2 relevant work(s) in the recent analysis window; matched topics: hydration, atomic force microscopy, interfacial water, AFM, confined water
+- **OpenAlex:** https://openalex.org/A5068676360
+- **Institution:** Academy of Scientific and Innovative Research
+- **Status:** RECOMMENDED
+- **Signals:** OUTSIDE_NETWORK, EMERGING_ACTIVITY
+- **Routes:** recurring-literature + topic-first
+- **Evidence:** 5 relevant paper(s), 3 recent; 0 seed connection(s)
+- **Matched keywords:** proton conductivity, proton transport, ionic transport, confined water, Grotthuss, hydrogen bond
+- **History:** first seen 2026-11-09; last seen 2026-11-09; 1 appearance(s), 1 week(s), 1 consecutive
+- **Emerging activity:** recent rate 1.50/year versus earlier 0.67/year
+- **Why:** routes: recurring-literature + topic-first; 5 relevant paper(s); 3 in the recent window; matched keywords: proton conductivity, proton transport, ionic transport, confined water, Grotthuss, hydrogen bond; matched queries: confined water; no seed-author connection observed; emerging recent activity: recent rate 1.50/year versus earlier 0.67/year.
 
 **Evidence works:**
 
-- 2025-10-15 — In-plane dielectric constant and conductivity of confined water
-- 2025-10-15 — In-plane dielectric constant and conductivity of confined water
-- 2023-06-19 — Atomic-scale structure of interfacial water on gel and liquid phase lipid membranes
-- 2023-02-01 — Effect of hydrophobic and hydrophilic surfaces on the morphological and physical properties of supported lipid membranes
-- 2023-02-01 — Atomic-scale characterisation of dielectric properties and structured water molecules at the interface of lipid membranes
+- 2026-10-29 — High Proton Conduction in a Hydrogen-Bonded Co(II) Framework through Pendant Carboxylic Acid-Decorated 1D Channels [topic]
+- 2026-01-01 — Advances in Short‐Side‐Chain Perfluorosulfonic Acid Electrolytes for Proton Exchange Membrane Fuel Cells [literature]
+- 2025-02-17 — Short-Side-Chain Membranes with Stabilized Superacid on Graphitic Carbon Nitride for Polymer Electrolyte Fuel Cells under Low-Humidity Conditions [literature]
+- 2024-09-25 — Functionalized Ceria Nanoparticles Reinforced with Short Side Chain-Based Composite Membrane for Low-Humidity Hydrogen-Powered Fuel Cells [literature]
+- 2023-11-08 — Solvent-Free, One-Pot Synthesis of Tungsten Semi-Carbide for Stable and Self-Hydrating Short-Side-Chain-Based Polymer Electrolyte Membrane for Low-Humidity Hydrogen Fuel Cells [literature]
 
-### 15. Hiran Jyothilal
+### 8. Tuan Anh Pham
 
-- **OpenAlex:** https://openalex.org/A5043856865
-- **Institution:** University of Manchester
-- **Recommendation score:** 26.5
-- **Connected seeds:** Boya Radha, Narayana R. Aluru
-- **Configured groups:** Confined water, Nanofluidics
-- **Recent relevant works:** 4
-- **Emerging-topic signal:** Yes (recent rate 2.0/year; earlier rate 0.0/year)
-- **Early-career publication signal:** Yes (first-year signal: 2019)
-- **Why recommended:** 4 topic-relevant coauthored work(s) with seed researchers; connected to 2 seed researchers; bridges 2 configured groups; 4 relevant work(s) in the recent analysis window; recent topic-publication rate is at least twice the earlier-window rate; matched topics: nanofluidic, ion transport, clay mineral, confined water, hydrogen bond
-
-**Evidence works:**
-
-- 2026-08-26 — Multi‐Stimuli Responsive Angstrom‐Scale Two‐Dimensional Channels of Natural Layered Materials
-- 2026-05-14 — Sub-diffractional infrared absorption of two-dimensional water
-- 2026-03-24 — 2D Copper MOF Membranes with Precise Pores for Ionic Memory
-- 2026-08-26 — Multi‐Stimuli Responsive Angstrom‐Scale Two‐Dimensional Channels of Natural Layered Materials
-
-### 16. Yuki Nagata
-
-- **OpenAlex:** https://openalex.org/A5033780451
-- **Institution:** Max Planck Institute for Polymer Research
-- **Recommendation score:** 25.5
-- **Connected seeds:** Lydéric Bocquet, Mischa Bonn
-- **Configured groups:** Interfacial spectroscopy, Nanofluidics
-- **Recent relevant works:** 9
-- **Emerging-topic signal:** No (recent rate 4.5/year; earlier rate 6.0/year)
-- **Early-career publication signal:** No/insufficient evidence (first-year signal: 2002)
-- **Why recommended:** 2 topic-relevant coauthored work(s) with seed researchers; connected to 2 seed researchers; bridges 2 configured groups; 9 relevant work(s) in the recent analysis window; matched topics: interfacial water, hydrogen bond, atomic force microscopy, AFM, confined water
+- **OpenAlex:** https://openalex.org/A5006222293
+- **Institution:** Lawrence Livermore National Laboratory
+- **Status:** RECOMMENDED
+- **Signals:** None
+- **Routes:** recurring-literature + seed-author + topic-first
+- **Evidence:** 17 relevant paper(s), 8 recent; 4 seed connection(s)
+- **Matched keywords:** nanochannel, nanopore, nanofluidic, ion transport, nanofluidics, hydrogen bond
+- **History:** first seen 2026-11-09; last seen 2026-11-09; 1 appearance(s), 1 week(s), 1 consecutive
+- **Emerging activity:** No
+- **Why:** routes: recurring-literature + seed-author + topic-first; 17 relevant paper(s); 8 in the recent window; matched keywords: nanochannel, nanopore, nanofluidic, ion transport, nanofluidics, hydrogen bond; matched queries: interfacial water; seed coauthorship evidence: Aleksandr Noy, Arun Majumdar, Martin Z. Bazant, Narayana R. Aluru.
 
 **Evidence works:**
 
-- 2026-09-14 — Visible light leaves evaporation and interfacial structure of neat water unchanged at the air–water interface
-- 2025-08-06 — Spontaneous Surface Charging and Janus Nature of the Hexagonal Boron Nitride–Water Interface
+- 2026-10-31 — Balance between Geometric Confinement and Hydrogen Bond Strength Controls Water Dynamics in 2D hBN Nanopores [topic]
+- 2026-06-12 — Electrostatic Gating of Ionic Conductance through Heterogeneous van der Waals Nanopores [literature]
+- 2026-05-19 — How Silica Surface Chemistry Modulates Interfacial Water: Insights from Machine Learning Molecular Dynamics [literature]
+- 2026-05-18 — Direct Ab Initio Simulation of the Synthesis of BaZrO 3 and the Microstructure Impacts on Proton Transport [literature]
+- 2026-01-01 — 2D nanoconfinement distorts the solvation structure of hydroxide but not of hydronium [literature]
 
-### 17. Raj Kumar Gogoi
+### 9. Ke Chao Zhou
 
-- **OpenAlex:** https://openalex.org/A5044554099
-- **Institution:** University of Manchester
-- **Recommendation score:** 23.5
-- **Connected seeds:** Boya Radha, Narayana R. Aluru
-- **Configured groups:** Confined water, Nanofluidics
-- **Recent relevant works:** 4
-- **Emerging-topic signal:** Yes (recent rate 2.0/year; earlier rate 1.0/year)
-- **Early-career publication signal:** No/insufficient evidence (first-year signal: 2017)
-- **Why recommended:** 4 topic-relevant coauthored work(s) with seed researchers; connected to 2 seed researchers; bridges 2 configured groups; 4 relevant work(s) in the recent analysis window; recent topic-publication rate is at least twice the earlier-window rate; matched topics: nanofluidic, ion transport, clay mineral
-
-**Evidence works:**
-
-- 2026-08-26 — Multi‐Stimuli Responsive Angstrom‐Scale Two‐Dimensional Channels of Natural Layered Materials
-- 2026-07-31 — Two-dimensional clay channels for tunable nanofluidic memristor
-- 2026-03-24 — 2D Copper MOF Membranes with Precise Pores for Ionic Memory
-- 2026-08-26 — Multi‐Stimuli Responsive Angstrom‐Scale Two‐Dimensional Channels of Natural Layered Materials
-
-### 18. Ivan Timokhin
-
-- **OpenAlex:** https://openalex.org/A5062916580
-- **Institution:** University of Manchester
-- **Recommendation score:** 23.0
-- **Connected seeds:** Artem Mishchenko, Qian Yang
-- **Configured groups:** 2D, Confined water
-- **Recent relevant works:** 2
-- **Emerging-topic signal:** Yes (recent rate 1.0/year; earlier rate 0.0/year)
-- **Early-career publication signal:** Yes (first-year signal: 2020)
-- **Why recommended:** 3 topic-relevant coauthored work(s) with seed researchers; connected to 2 seed researchers; bridges 2 configured groups; 2 relevant work(s) in the recent analysis window; recent topic-publication rate is at least twice the earlier-window rate; matched topics: nanofluidic, ion transport, atomic force microscopy, confined water, nanoconfined water
+- **OpenAlex:** https://openalex.org/A5012937709
+- **Institution:** Soochow University
+- **Status:** RECOMMENDED
+- **Signals:** None
+- **Routes:** recurring-literature + seed-author + topic-first
+- **Evidence:** 26 relevant paper(s), 7 recent; 1 seed connection(s)
+- **Matched keywords:** nanochannel, nanopore, ion transport, nanofluidic, nanochannels, graphene
+- **History:** first seen 2026-11-09; last seen 2026-11-09; 1 appearance(s), 1 week(s), 1 consecutive
+- **Emerging activity:** No
+- **Why:** routes: recurring-literature + seed-author + topic-first; 26 relevant paper(s); 7 in the recent window; matched keywords: nanochannel, nanopore, ion transport, nanofluidic, nanochannels, graphene; matched queries: confined water; seed coauthorship evidence: Lei Jiang.
 
 **Evidence works:**
 
-- 2025-11-23 — Rapid fabrication of clean van der Waals nanochannels using Mask and Stack method
-- 2025-04-15 — Quantifying hydrogen bonding using electrically tunable nanoconfined water
-- 2025-11-23 — Rapid fabrication of clean van der Waals nanochannels using Mask and Stack method
+- 2026-11-05 — Threshold‐Voltage Ion Sieving in Ultrathin Polymeric Membranes for Energy‐Efficient Lithium Extraction [literature]
+- 2026-10-24 — Selective Electronic Pre-Activation of OH Bonds in Extremely Confined Water [topic]
+- 2025-10-08 — Simultaneous voltage-gated control of ion and water transport in Zr4-Ti3C2Tx nanochannel membranes [literature]
+- 2025-10-03 — Nanophase-Separation Heterogel Photoiontronics for Bidirectional Ion-Gradient Energy Conversion Modulation [literature, seed]
+- 2025-09-05 — Machine-Learning Potential Molecular Dynamics Reveals the Critical Role of Flexibility in Solid–Liquid Nanofluidic Friction [literature]
 
-### 19. Mathieu Lizée
+### 10. Alberto Striolo
 
-- **OpenAlex:** https://openalex.org/A5011032680
-- **Institution:** Centre National de la Recherche Scientifique
-- **Recommendation score:** 22.0
-- **Connected seeds:** Lydéric Bocquet, Qian Yang
-- **Configured groups:** Confined water, Nanofluidics
-- **Recent relevant works:** 3
-- **Emerging-topic signal:** No (recent rate 1.5/year; earlier rate 1.0/year)
-- **Early-career publication signal:** Yes (first-year signal: 2022)
-- **Why recommended:** 4 topic-relevant coauthored work(s) with seed researchers; connected to 2 seed researchers; bridges 2 configured groups; 3 relevant work(s) in the recent analysis window; matched topics: nanofluidic, ion transport, AFM
-
-**Evidence works:**
-
-- 2026-05-01 — Architecting mechanosensitive nanofluidic transport in graphite nanoslits
-- 2026-07-29 — Architecting mechanosensitive nanofluidic transport in graphite nanoslits
-- 2026-05-01 — Architecting mechanosensitive nanofluidic transport in graphite nanoslits
-- 2025-06-01 — Multiple ionic memories in asymmetric nanochannels revealed by mem-spectrometry
-
-### 20. Cecilia Herrero
-
-- **OpenAlex:** https://openalex.org/A5075572466
-- **Institution:** Université Paris Cité
-- **Recommendation score:** 19.5
-- **Connected seeds:** Angelos Michaelides, Lydéric Bocquet
-- **Configured groups:** Interfacial water, Nanofluidics
-- **Recent relevant works:** 2
-- **Emerging-topic signal:** Yes (recent rate 1.0/year; earlier rate 0.33/year)
-- **Early-career publication signal:** No/insufficient evidence (first-year signal: 2016)
-- **Why recommended:** 2 topic-relevant coauthored work(s) with seed researchers; connected to 2 seed researchers; bridges 2 configured groups; 2 relevant work(s) in the recent analysis window; recent topic-publication rate is at least twice the earlier-window rate; matched topics: nanofluidic, confined water, interfacial water, dielectric spectroscopy, electric double layer
+- **OpenAlex:** https://openalex.org/A5034083940
+- **Institution:** University of Oklahoma
+- **Status:** RECOMMENDED
+- **Signals:** None
+- **Routes:** recurring-literature + seed-author + topic-first
+- **Evidence:** 11 relevant paper(s), 5 recent; 1 seed connection(s)
+- **Matched keywords:** hydrogen bond, nanochannel, nanopore, hydration layer, water interface, interfacial water
+- **History:** first seen 2026-11-09; last seen 2026-11-09; 1 appearance(s), 1 week(s), 1 consecutive
+- **Emerging activity:** No
+- **Why:** routes: recurring-literature + seed-author + topic-first; 11 relevant paper(s); 5 in the recent window; matched keywords: hydrogen bond, nanochannel, nanopore, hydration layer, water interface, interfacial water; matched queries: interfacial water; seed coauthorship evidence: Angelos Michaelides.
 
 **Evidence works:**
 
-- 2026-01-29 — Stacking-Controlled Reactivity and Friction of Water in Atomic-Scale hBN Channels from First Principles
-- 2026-01-29 — Stacking-Controlled Reactivity and Friction of Water in Atomic-Scale hBN Channels from First Principles
+- 2026-10-31 — Balance between Geometric Confinement and Hydrogen Bond Strength Controls Water Dynamics in 2D hBN Nanopores [topic]
+- 2026-07-28 — SEI Formation Mechanisms at Lithium Metal Interfaces in Perfluoroether-Extended LiTFSI-Grafted Polymer Electrolytes [literature]
+- 2025-12-15 — Weak salting-out of H2 gas from aqueous NaCl solutions confined in kaolinite nanopores [literature]
+- 2025-03-24 — Structural and dynamical properties of aqueous NaCl brines confined in kaolinite nanopores [literature]
+- 2024-12-02 — The solvation of Na+ ions by ethoxylate moieties enhances adsorption of sulfonate surfactants at the air-water interface [literature]
+
+## WATCH candidates
+
+- **张邓新** — 1 relevant paper(s); 1 recent; matched confined water, nanochannel, hydrogen bond; queries confined water; no seed-author connection (routes: topic-first)
+- **Zongxian Yang** — 1 relevant paper(s); 1 recent; matched confined water, nanochannel, surface hydration; queries confined water; no seed-author connection (routes: topic-first)
+
+## Outside the current seed network
+
+- **Kuo Liu** — 8 relevant paper(s); 7 recent; matched confined water, nanochannel, nanopore; queries confined water, interfacial water; no seed-author connection; emerging recent activity
+- **Tianfei Chu** — 6 relevant paper(s); 5 recent; matched nanochannel, nanopore, confined water; queries confined water, interfacial water; no seed-author connection; emerging recent activity
+- **Wan‐Jian Yin** — 10 relevant paper(s); 5 recent; matched 2D materials, graphene, nanochannel; queries confined water; no seed-author connection; emerging recent activity
+- **Santoshkumar D. Bhat** — 6 relevant paper(s); 3 recent; matched proton conductivity, proton transport, ionic transport; queries confined water; no seed-author connection; emerging recent activity
+- **Maniprakundil Neeshma** — 5 relevant paper(s); 3 recent; matched proton conductivity, proton transport, ionic transport; queries confined water; no seed-author connection; emerging recent activity
+- **Khang Quang Bui** — 4 relevant paper(s); 3 recent; matched nanochannel, nanopore, hydrogen bond; queries interfacial water; no seed-author connection; emerging recent activity
+- **Wei Li** — 4 relevant paper(s); 4 recent; matched interfacial water, hydrogen bond, hydrogen-bond network; queries interfacial water; no seed-author connection; emerging recent activity
+- **Subhadip Neogi** — 4 relevant paper(s); 2 recent; matched hydrogen bond, proton conductivity, confined water; queries confined water; no seed-author connection; emerging recent activity
+- **Chonghai Qi** — 4 relevant paper(s); 2 recent; matched confined water, interfacial water, nanofluidic; queries interfacial water; no seed-author connection; emerging recent activity
+- **Rudra Chand** — 2 relevant paper(s); 2 recent; matched hydrogen bond, proton conductivity, confined water; queries confined water; no seed-author connection; emerging recent activity
 
 ## Group map
 
-### Closely connected configured groups
+### Closely connected groups
 
-- **Confined water ↔ Nanofluidics**: 6 relevant seed-coauthored work(s); topic Jaccard 0.419
-- **Interfacial water ↔ Nanofluidics**: 6 relevant seed-coauthored work(s); topic Jaccard 0.179
-- **Confined water ↔ Interfacial water**: 6 relevant seed-coauthored work(s); topic Jaccard 0.174
-- **Interfacial spectroscopy ↔ Interfacial water**: 4 relevant seed-coauthored work(s); topic Jaccard 0.182
-- **2D ↔ Confined water**: 3 relevant seed-coauthored work(s); topic Jaccard 0.286
-- **Interfacial spectroscopy ↔ Nanofluidics**: 3 relevant seed-coauthored work(s); topic Jaccard 0.111
-- **Confined water ↔ Interfacial spectroscopy**: 2 relevant seed-coauthored work(s); topic Jaccard 0.143
+- **2D ↔ Confined water**: 1 relevant seed-coauthored work(s); topic Jaccard 0.5
 
-### Similar topics without observed seed-group collaboration
+### Similar topics without observed collaboration
 
-- **2D ↔ Nanofluidics**: topic Jaccard 0.2; no relevant seed-coauthored work observed
-- **2D ↔ Interfacial water**: topic Jaccard 0.19; no relevant seed-coauthored work observed
-- **2D ↔ Interfacial spectroscopy**: topic Jaccard 0.158; no relevant seed-coauthored work observed
+- **Confined water ↔ Interfacial water**: topic Jaccard 0.286; no relevant seed-coauthored work observed
+- **2D ↔ Interfacial water**: topic Jaccard 0.2; no relevant seed-coauthored work observed
+- **Confined water ↔ Electrostatics**: topic Jaccard 0.2; no relevant seed-coauthored work observed
+- **Interfacial water ↔ Nanofluidics**: topic Jaccard 0.2; no relevant seed-coauthored work observed
+- **Electrostatics ↔ Nanofluidics**: topic Jaccard 0.154; no relevant seed-coauthored work observed
 
 ## Interpretation limits
 
-- ‘Core researcher’ here means strongly connected and topic-relevant within this seed-defined graph, not globally authoritative.
-- ‘Sudden entry’ requires repeated historical runs. The JSON history file stores weekly snapshots; confidence improves after several runs.
+- Categories describe evidence strength for discovery, not scientific quality or career stage.
+- Two relevant papers are normally required for RECOMMENDED; one paper is retained as WATCH.
+- History tracks candidates with at least two relevant papers plus the featured shortlist, to keep weekly state small.
+- Reappearance uses distinct run dates in the history file.
 - Missing or merged OpenAlex author records can affect results.
