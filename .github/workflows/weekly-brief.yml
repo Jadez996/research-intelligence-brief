@@ -2,7 +2,7 @@ name: Weekly Research Intelligence Brief
 
 on:
   schedule:
-    - cron: "21  0 * * 0"
+    - cron: "21  0 * * 0,3"
   workflow_dispatch:
     
 permissions:
