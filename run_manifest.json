@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-09T12:30:54.670320+00:00",
+  "generated_at": "2026-11-11T06:44:50.793607+00:00",
   "status": "ok",
   "complete": true,
   "dry_run": false,
@@ -49,19 +49,19 @@
     "updated": true,
     "planned": true,
     "path": "seen_works.json",
-    "qualifying_ids": 139,
+    "qualifying_ids": 9,
     "error": null
   },
   "counts": {
-    "papers": 129,
-    "reported_weekly": 100,
-    "reported_issue": 13,
-    "researcher_candidates": 868,
-    "researcher_recommended": 18,
-    "researcher_watch": 850,
-    "researcher_outside_network": 769,
-    "researcher_reappearing": 3,
-    "researcher_emerging_activity": 14
+    "papers": 9,
+    "reported_weekly": 9,
+    "reported_issue": 8,
+    "researcher_candidates": 92,
+    "researcher_recommended": 7,
+    "researcher_watch": 85,
+    "researcher_outside_network": 83,
+    "researcher_reappearing": 1,
+    "researcher_emerging_activity": 5
   },
   "outputs": {
     "weekly_papers_json": "weekly_papers.json",
